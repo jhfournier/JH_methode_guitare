@@ -21,10 +21,19 @@
 \usepackage{hyperref}
 \setlength\parindent{0pt} % Removes all indentation from paragraphs
 \usepackage{booktabs}
-\usepackage{pgfplots}
 
 \usepackage{changepage}
 \usepackage{multirow}
+
+\usepackage{pgfplots} % Include package for TikZ and PGF plot
+\usepackage{anyfontsize} % enable to change the font size manually
+\usepackage{makecell}%
+\usetikzlibrary{shapes.geometric}
+\tikzset{
+  dot/.style = {circle, fill, minimum size=#1,
+                inner sep=0pt, outer sep=0pt},
+  dot/.default = 6pt
+}
 
 
 \renewcommand{\labelenumi}{\alph{enumi}.} % Make numbering in the enumerate environment by letter rather than number (e.g. section 6)
@@ -64,6 +73,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Intervals: where do notes come from?}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %Names of the interval comes from the diatonic scale. In C major scale (C-D-E-F-G-A-B-C) that scale G$\#$ is the augmented 5. In C minor scale (C-D-Eb-F-G-Ab-Bb) G$\#$ is the minor sixth.
 
@@ -72,20 +82,19 @@
 % Figure 
 \begin{figure}[h!]
 	\centering
-	\hspace*{0cm}
-	\includegraphics[scale=1.0, trim= {0cm 0cm 0cm 0cm}, clip]{serie_harmonique/main.pdf}
+%	\hspace*{0cm}
+	\scalebox{1}{\input{figures/serie_harmonique/main.tex}}
 	\caption{The harmonic series}
-	\label{fig}
+	\label{fig:serie_harmonique}
 \end{figure} 
 
 %% Table
-\input{tableaux/tableau_interval.tex}
-
+\input{tableaux/harmoniques}
 
 
 % Table
 % Source: https://hellomusictheory.com/learn/intervals/
-\input{tableaux/tableau_gammes.tex}
+\input{tableaux/interval}
 
 
 % ****************************************************************************
@@ -105,6 +114,7 @@
 	\centering
 	\hspace*{0cm}
 	\includegraphics[scale=0.5, trim= {0cm 0cm 0cm 0cm}, clip]{battement/main.pdf}
+%	\scalebox{0.3}{\input{figures/battement/main.tex}}
 	\caption{Beat tone}
 	\label{fig}
 \end{figure}
@@ -113,168 +123,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Interval of notes create scales
 \newpage
-\section{Relation between scales}
+\section{Scales}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+% Table
+\input{tableaux/gammes.tex}
+
+\newpage
+\subsection{Major scale}
 Modes ranked by brightness: Super-locrian, locrian, phrygian, aeolian, dorian, mixolydian, major, lydian, lydian augmented
-
-% Insert the table from an external file
-%\input{scales_table.tex}
-
-% Table  
-\begin{table*}[!h]
-	\caption{Scales formula (relative to the major scale)}
-	\begin{adjustwidth}{-2.5cm}{}
-	\begin{tabular}{l|ccc cccc|l}
-		Scale name  & \multicolumn{7}{c}{Formula} & Comment \\ 
-		\hline \hline \vspace{-0.4cm} \\
-		\textcolor{yellow!90!black}{Major} & \textcolor{yellow!90!black}{1}  
-										    & \textcolor{yellow!90!black}{2}  
-										    & \textcolor{yellow!90!black}{3}  
-										    & \textcolor{yellow!90!black}{4} 
-										    & \textcolor{yellow!90!black}{5}  
-										    & \textcolor{yellow!90!black}{6} 
-										    & \textcolor{yellow!90!black}{7} & \\ 
-		Pentatonic Major   & 1 & 2  & 3  &   -   & 5  & 6  &  - &  \\ 
-		\textcolor{red!60!white}{Natural minor}      & \textcolor{red!60!white}{1} 
-													  & \textcolor{red!60!white}{2} 
-													  & \textcolor{red!60!white}{b3} 
-													  & \textcolor{red!60!white}{4}      
-													  & \textcolor{red!60!white}{5}   
-													  & \textcolor{red!60!white}{b6} 
-													  & \textcolor{red!60!white}{b7} 
-													  & \\
-		Pentatonic minor        & 1 &  - & b3 & 4  & 5  & - &  b7 &  \\ 
-		Harmonic minor          & 1 & 2  & b3 & 4  & 5  & b6 & \textcolor{black}{\fbox{7}}  &  \\
-		Melodic minor           & 1 & 2  & b3 & 4  & 5  & \textcolor{black}{\fbox{6}}  & 7  &  \\ 
-		
-		\hline
-		
-		\textcolor{yellow!90!black}{Ionian (Major)}  & \textcolor{yellow!90!black}{1}  
-											  		  & \textcolor{yellow!90!black}{2}  
-											  		  & \textcolor{yellow!90!black}{3}  
-											  		  & \textcolor{yellow!90!black}{4} 
-											  		  & \textcolor{yellow!90!black}{5}  
-											  		  & \textcolor{yellow!90!black}{6} 
-											  		  & \textcolor{yellow!90!black}{7} & \\ 
-		\textcolor{green!60!white!70!black}{Dorian}  & \textcolor{green!60!white!70!black}{1} 
-													  & \textcolor{green!60!white!70!black}{2} 
-													  & \textcolor{green!60!white!70!black}{b3} 
-													  & \textcolor{green!60!white!70!black}{4} 
-													  & \textcolor{green!60!white!70!black}{5}  
-													  & \textcolor{green!60!white!70!black}{6} 
-													  & \textcolor{green!60!white!70!black}{b7} & Mad world, So What \\ 
-		\textcolor{cyan}{Phrygian}                   & \textcolor{cyan}{1} 
-													  & \textcolor{cyan}{b2} 
-													  & \textcolor{cyan}{b3} 
-													  & \textcolor{cyan}{4} 
-													  & \textcolor{cyan}{5}  
-													  & \textcolor{cyan}{b6} 
-													  & \textcolor{cyan}{b7} & Symphony of destruction\\ 
-		\textcolor{blue!50!white}{Lydian}            & \textcolor{blue!50!white}{1} 
-													  & \textcolor{blue!50!white}{2}
-													  & \textcolor{blue!50!white}{3}  
-													  & \textcolor{blue!50!white}{$\#$4} 
-													  & \textcolor{blue!50!white}{5}  
-													  & \textcolor{blue!50!white}{6}  
-													  & \textcolor{blue!50!white}{7}  
-													  &  Legend of Zelda\\ 
-		\textcolor{blue!50!red!50!white}{Mixolydian} & \textcolor{blue!50!red!50!white}{1} 
-													  & \textcolor{blue!50!red!50!white}{2} 
-													  & \textcolor{blue!50!red!50!white}{3} 
-													  & \textcolor{blue!50!red!50!white}{4}    
-													  & \textcolor{blue!50!red!50!white}{5}
-													  & \textcolor{blue!50!red!50!white}{6}
-													  & \textcolor{blue!50!red!50!white}{b7}
-													  & Clock by Coldplay\\ 
-		\textcolor{red!60!white}{Aeolian (natural minor)} & \textcolor{red!60!white}{1} 
-													  & \textcolor{red!60!white}{2} 
-													  & \textcolor{red!60!white}{b3} 
-													  & \textcolor{red!60!white}{4}      
-													  & \textcolor{red!60!white}{5}   
-													  & \textcolor{red!60!white}{b6} 
-													  & \textcolor{red!60!white}{b7} 
-													  & Smell Like Teen Spirit\\
-		\textcolor{orange!80!white}{Locrian}         & \textcolor{orange!80!white}{1}
-													  & \textcolor{orange!80!white}{b2} 
-													  & \textcolor{orange!80!white}{b3}
-													  & \textcolor{orange!80!white}{4}   
-													  & \textcolor{orange!80!white}{b5}
-													  & \textcolor{orange!80!white}{b6}
-													  & \textcolor{orange!80!white}{b7}
-													  & Rush-YYZ intro\\ 
-		
-		\hline 
-		\textcolor{yellow!90!black}{Ionian b6}    & \textcolor{yellow!90!black}{1} 
-												   & \textcolor{yellow!90!black}{2}
-												   & \textcolor{yellow!90!black}{3}
-												   & \textcolor{yellow!90!black}{4}
-												   & \textcolor{yellow!90!black}{5}
-												   & \textcolor{yellow!90!black}{\textcolor{yellow!90!black}{\fbox{b6}}} 
-												   & \textcolor{yellow!90!black}{7}\\ 
-		\textcolor{green!60!white!70!black}{Dorian {\footnotesize $\#$}4} (4$^{\textrm{th}}$ Harm. min) & \textcolor{green!60!white!70!black}{1} 
-																							& \textcolor{green!60!white!70!black}{2}  
-																							& \textcolor{green!60!white!70!black}{b3} 
-																							& \textcolor{green!60!white!70!black}{\fbox{\textcolor{green!60!white!70!black}{{\footnotesize $\#$}4}}} 
-																							& \textcolor{green!60!white!70!black}{5}  
-																							& \textcolor{green!60!white!70!black}{6}  
-																							& \textcolor{green!60!white!70!black}{b7} 
-																						    & \\
-		\textcolor{cyan}{Phrygian dominant} (5th Harm. min) & \textcolor{cyan}{1} 
-													  & \textcolor{cyan}{b2} 
-													  & \textcolor{cyan}{\fbox{\textcolor{cyan}{3}}}
-													  & \textcolor{cyan}{4} 
-													  & \textcolor{cyan}{5}  
-													  & \textcolor{cyan}{b6} 
-													  & \textcolor{cyan}{b7} & Flamenco, egyptian \\
-		\textcolor{blue!50!white}{Lydian dominant} (4th Melo. min)  & \textcolor{blue!50!white}{1} 
-																	  & \textcolor{blue!50!white}{2}
-																	  & \textcolor{blue!50!white}{3} 
-																	  & \textcolor{blue!50!white}{{\footnotesize $\#$}4 }
-																	  & \textcolor{blue!50!white}{5}
-																	  & \textcolor{blue!50!white}{6} 
-																	  & \textcolor{blue!50!white}{\textcolor{blue!50!white}{\fbox{b7}}} 
-																	  & Prog futuristic, Simpsons theme\\  
-		\textcolor{blue!50!red!50!white}{Mixolydian b6} (5th Melo. min)  & \textcolor{blue!50!red!50!white}{1} 
-																		   & \textcolor{blue!50!red!50!white}{2}  
-																		   & \textcolor{blue!50!red!50!white}{\textcolor{blue!50!red!50!white}{\fbox{3}} } 
-																		   & \textcolor{blue!50!red!50!white}{4}
-																		   & \textcolor{blue!50!red!50!white}{5} 
-																		   & \textcolor{blue!50!red!50!white}{b6}  
-																		   & \textcolor{blue!50!red!50!white}{b7} 
-																		   & Prog rock \\
-		(or Aeolian dominant) & & & &   & & & &\\
-		Neapolitan minor                   & \textcolor{black}{1} 
-													  & \textcolor{black}{b2} 
-													  & \textcolor{black}{b3} 
-													  & \textcolor{black}{4} 
-													  & \textcolor{black}{5}  
-													  & \textcolor{black}{b6} 
-													  & \textcolor{black}{7} &\\                                                                                
-		\hline 
-		Bizantine scale (double harmonic major)      & \textcolor{black}{1} 
-													  & \textcolor{black}{b2} 
-													  & \textcolor{black}{3} 
-													  & \textcolor{black}{4} 
-													  & \textcolor{black}{5}  
-													  & \textcolor{black}{b6} 
-													  & \textcolor{black}{7} & Opeth - Bleak\\
-	    Lydian $\#$2,$\#$6                           & & & & & & & \\
-	    Ultra-Phrygian                               &1 &b2 &b3 &b4 &5 &b6 &bb7 \\
-		Hungarian minor (double harmonic minor)      & \textcolor{black}{1} 
-													  & \textcolor{black}{2} 
-													  & \textcolor{black}{b3} 
-													  & \textcolor{black}{$\#$4} 
-													  & \textcolor{black}{5}  
-													  & \textcolor{black}{b6} 
-													  & \textcolor{black}{7} & \\ 
-	    Oriental (Asian)                             & & & & & & & \\
-	    Ionian Aug$\#$2                             & 1&$\#$2 &3 &4 &$\#$5 &6 &7 \\
-	    Locrian bb3,bb7                             & 1 &b2 &bb3 &4 &b5 &b6 &bb7 \\
-		\hline 
-	\end{tabular}
-	\label{tab: }
-	\end{adjustwidth}
-\end{table*}
 
 \begin{itemize}
 	\item Major scales and the modes (and all modes)
@@ -287,24 +144,71 @@ Modes ranked by brightness: Super-locrian, locrian, phrygian, aeolian, dorian, m
 \begin{figure}[h!]
 	\centering
 	\hspace*{-2cm}
-	\includegraphics[scale=0.55, trim= {0cm 0cm 0cm 0cm}, clip]{Fretboard_MajorScale/main.pdf}
+	\includegraphics[scale=0.55, trim= {0cm 0cm 0cm 0cm}, clip]{gamme_majeure_manche/main.pdf}
 	\caption{G Major scale on the fretboard}
-	\label{fig}
+	\label{fig:gamme_majeure_manche}
 \end{figure}
 
+\newpage
+\subsection{Pentatonic scale}
 % Figure 
 \begin{figure}[h!]
 	\centering
 	\hspace*{-2cm}
-	\includegraphics[scale=0.55, trim= {0cm 0cm 0cm 0cm}, clip]{Fretboard_pentatonic/main.pdf}
+	\includegraphics[scale=0.55, trim= {0cm 0cm 0cm 0cm}, clip]{gamme_penta_manche/main.pdf}
 	\caption{Pattern of pentatonic scales}
-	\label{fig}
+	\label{fig:gammme_penta_manche}
+\end{figure}
+
+\newpage
+\subsection{Blues}
+
+
+% Table
+\begin{table*}[!h]
+	\caption{Blues scales (relative to the major scale)}
+	\centering
+	%\begin{adjustwidth}{0cm}{}
+	\begin{tabular}{l|cccccccc}
+		Scale name  & \multicolumn{8}{c}{Formula} \\
+		\hline \hline \vspace{-0.4cm} \\
+		Blues Major   & 1 & 2  & \textcolor{red}{b3} & 3  &   -   & 5  & 6  &  -  \\
+		Blues minor   & 1 &  - & b3 & 4  & \textcolor{red}{b5} &  5  & - &  b7 \\
+	\end{tabular}
+	\label{tab: }
+	%\end{adjustwidth}
+\end{table*}
+
+% Table
+\begin{table*}[!h]
+	\caption{12 bar blues in C major}
+	\centering
+	\begin{tabular}{| c | c | c | c |}
+		\hline
+		\phantom{x}G7\phantom{x} & \phantom{x}G7\phantom{x} & \phantom{x}G7\phantom{x} & \phantom{x}G7\phantom{x}  \\
+		\hline
+		\phantom{x}C7\phantom{x} & \phantom{x}C7\phantom{x} & \phantom{x}G7\phantom{x} & \phantom{x}G7\phantom{x}  \\
+		\hline
+		\phantom{x}D7\phantom{x} & \phantom{x}C7\phantom{x} & \phantom{x}G7\phantom{x} & \phantom{x}D7\phantom{x}  \\
+		\hline
+	\end{tabular}
+	\label{tab: }
+\end{table*}
+
+% Figure
+\begin{figure}[h!]
+	\centering
+	\hspace*{-1cm}
+	\scalebox{0.7}{\input{figures/blues/penta_mineur.tex}}
+	\caption{ }
+	\label{fig:blues_penta_mineur}
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Construction of chords superimposing 3rds on a scale
 \newpage
 \section{Chords}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{itemize}
 	\item Tonic: I, iii, vi 
@@ -321,49 +225,11 @@ Modes ranked by brightness: Super-locrian, locrian, phrygian, aeolian, dorian, m
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 \subsection{Formation of chords}
+
 % Table
 % Source: 1997 - Vaillot Méthode Jazz
-\begin{table*}[!h]
-	\centering
-	\caption{Construction of chords (notation is relative to the major scale)}
-	\begin{tabular}{clcccccc}
-		\hline \vspace{-0.2cm} \\
-		$\#$ notes & Chords & & & & & &\\
-		\hline \vspace{-0.2cm} \\ 
-		\multirow{6}{*}{triad} & -        & 1 & M3 & 5 &  -  & -  & -\\
-		                       & m        & 1 & m3 & 5 &  -  & -  & -\\
-		                       & dim or $^\circ$  & 1 & m3 & b5  &  -  & -  & -\\
-		                       & aug or $^\#$5 & 1 & m3 & $^\#$5 &  -  & -  & -\\
-		                       & sus2     & 1 & M2  & 5     &  -  & -  & -\\
-		                       & sus4     & 1 & 4   & 5     &  -  & -  & -\\
-		\hline  
-		\multirow{13}{*}{tetrad}& 7        & 1 & M3  & 5 & m7  & -  & -\\
-		                       & $\Delta$  & 1 & M3  & 5 & M7  & -  & -\\
-		                       & m$^7$     & 1 & m3  & 5 & m7  & -  & -\\
-		                       & m$^\Delta$& 1 & m3  & 5 & M7  & -  & -\\
-		                       & m$^{7\textrm{b}5}$ or $\varnothing$& 1 & m3  & b5 & m7  & -  & -\\
-		                       & $^{\circ 7}$   & 1 & m3  & b5 & b7 & -  & -\\
-                               & 6        & 1 & M3  & 5 & 6   & -  & -\\	
-                               & m6       & 1 & m3  & 5 & 6   & -  & -\\	                       
-		                       & m6(9)    & 1 & m3  & 6 & M9  & -  & -\\
-		                       & 6(9)     & 1 & M3  & 6 & M9  & -  & -\\
-		                       & 7sus4    & 1 & 4   & 5 & m7  & -  & -\\
-		                       & add2     & 1 & M2  & M3& 5   & -  & -\\
-		                       & add9     & 1 & M3  & 5 & M9  & -  & -\\
-		\hline
-		\multirow{6}{*}{pentad}& 7(b9)      & 1 & M3  & 5 & m7  & m9  & -\\
-	                           & $\Delta^9$ & 1 & M3  & 5 & M7  & M9  & -\\
-		                       & 9          & 1 & M3  & 5 & m7  & M9  & -\\
-		                       & m9         & 1 & m3  & 5 & m7  & M9  & -\\
-		                       & sus9       & 1 & 4   & 5 & m7  & M9  & -\\
-		                       & 11         & 1 & 5   & m7& M9  & 11  & -\\ % The 3 is omitted to avoid the dissonace between 3-11.
-		\hline
-		\multirow{2}{*}{hexad} & 7(13)      & 1 & M3  & 5 & m7  & M9  & M13\\ % the 11 is omited to avoid the dissonance between 3-11.
-		                       & 7(b9,13)   & 1 & M3  & 5 & m7  & m9  & M13\\
-		\hline \vspace{-0.2cm}
-	\end{tabular}
-	\label{tab: }
-\end{table*}
+\input{tableaux/accords.tex}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
@@ -382,48 +248,13 @@ Modes ranked by brightness: Super-locrian, locrian, phrygian, aeolian, dorian, m
 	\label{fig}
 \end{figure}
 
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 \subsection{Chord progression and example}
 
 % Table
 % Source: 1997 - Vaillot Méthode Jazz
-\begin{table*}[!h]
-	\centering
-	\caption{Famous chord progressions}
-	\begin{adjustwidth}{-3cm}{}
-	\begin{tabular}{p{5.0cm}p{5.5cm}p{7cm}}
-		\hline \vspace{-0.2cm} \\
-	    Name & Progression & Example\\
-		\hline \vspace{-0.2cm} \\ 
-		Pop major (punk)      & $\textrm{I}-\textrm{V}-\textrm{vi}-\textrm{IV}$ & Dammit, Let it be, Country Road \\
-		Anatol (turnaround)   & $\textrm{I}^{\Delta}-\textrm{vi}^7-\textrm{ii}^7-\textrm{V}^7$ & Blue Moon \\
-		50s progression       & $\textrm{I}-\textrm{vi}-\textrm{IV}-\textrm{V}$ & Every Breath You Take, Crocodile Rock\\
-		Ragtime               &$\textrm{I}-\textrm{VI}^7-\textrm{II}^{7}-\textrm{V}^{7}$ & I want to be like you (Disney) \\
-		Jazz (ii-V-I)         & $\textrm{ii}^{7}-\textrm{V}^7-\textrm{I}^{\Delta}$ & Autumn leaves\\
-		Blues/Rock (Major)    & $\textrm{I}^7-\textrm{IV}^7-\textrm{V}^7-\textrm{I}^7$ & Johnny B. Goode\\
-		
-	    Mixo vamp (mixo)      & $\textrm{I}-\textrm{bVII}-\textrm{IV}-\textrm{I}$ & Hey Jude, Sweet home Alabama \\
-	    Japanese ``Royal road'' & $\textrm{IV}^\Delta-\textrm{V}^7-\textrm{iii}^7-\textrm{vi}^7-$ {\footnotesize $(\textrm{ii}^7-\textrm{V}^7-\textrm{I}^{\Delta})$} & Shogo theme, anime \\
-	    ``Storyteller''       & $\textrm{I}-\textrm{IV}-\textrm{vi}-\textrm{V}$ & \\
-	    Creep chord            & I$\,-\,$III$\,-\,$IV$\,-\,$iv &  Creep, Space Oddity \\
-		Pop minor             & $\textrm{i}-\textrm{bVI}-\textrm{bIII}-\textrm{bVII}$ & Save Tonight, Africa Toto \\	    
-	    Aeolian vamp          & $\textrm{i}-\textrm{bVII}-\textrm{bVI}-\textrm{bVII}$  & Stairway to Heaven, All Iron Maiden \vspace{-0.8cm}  \\ 
-		Minor progression 01    & $\textrm{i}-\textrm{i}-\textrm{bVI}-\textrm{V}$ & Sweet Dreams \\	    
-	    Minor progression 02    & $\textrm{i}-\textrm{bVI}-\textrm{bIII}-\textrm{bVII}$ &  \\
-	    Minor progression 03    & $\textrm{i}-\textrm{bVI}-\textrm{iv}-\textrm{bVII}$ & Final countdown\\
-	    Minor progression 04    & $\textrm{i}-\textrm{bIII}-\textrm{bVII}-\textrm{iv}$ & Boulevard of Broken Dreams\\
-	    Andalusian	(phrygian)& $\textrm{i}-\textrm{bVII}-\textrm{bVI}-\textrm{V}^7$ & Happy Together The Turtles\\
-	    Blues/Rock (minor)      & $\textrm{i}^7-\textrm{iv}^7-\textrm{V}^7-\textrm{i}^7$ & Minor swing\\
-	    Anime                   & $\textrm{bVI}-\textrm{bVII}-\textrm{i}$   &             \\ 
-		Neapolitan              & i$\,-\,$bII$^6\,-\,$V$\,-\,$i &  Classic \\
-		\hline \vspace{-0.2cm} \\
-	\end{tabular}
-	\end{adjustwidth}
-	\label{tab:}
-\end{table*}
+\input{tableaux/Progression_accord.tex}
 
 Concepts: 
 \begin{itemize}
@@ -473,64 +304,12 @@ Concepts:
 \newpage
 \section{Modes}
 
+% Table
+\input{tableaux/modes.tex}
 
 % Table
-\begin{table*}[!h]
-	\caption{Table of modes }
-	\begin{adjustwidth}{-2.3cm}{}
-	\begin{tabular}{lccc cccc}
-		\hline \vspace{-0.2cm} \\
-		Major scale degree & I$^\Delta$ & ii$^{7}$ & iii$^{7}$ & IV$^\Delta$ & V$^7$ & vi$^{7}$ & vii$^{\varnothing}$ \\
-		Mode & \textbf{Ionian} & \textbf{Dorian} & \textbf{Phrygian} & \textbf{Lydian} & \textbf{Mixolydian} & \textbf{Aeolian} & \textbf{Locrian}\\
-		Example  & (joy) & (jazzy) & (flamenco) & (floaty, mystery) & (blues) & (sad) & (tension)\\		
-		\hline \vspace{-0.2cm} \\ 
-		{\scriptsize $\# \# \# \# \# \#$} & F$^\#$ & G$^\#$ & A$^\#$ & B & C$^\#$ & D$^\#$ & E$^\#$ \\
-		{\scriptsize $\# \# \# \# \#$}    & B & C$^\#$ & D$^\#$ & E & F$^\#$ & G$^\#$ & A$^\#$\\
-		{\scriptsize $\# \# \# \#$}       & E & F$^\#$ & G$^\#$ & A & B & C$^\#$ & D$^\#$\\
-		{\scriptsize $\# \# \#$}          & A & B & C$^\#$ & D & E & F$^\#$ & G$^\#$\\
-		{\scriptsize $\# \#$}             & D & E & F$^\#$ & G & A & B & C$^\#$\\
-		{\scriptsize $\#$}                & G & A & B & C  & D & E & F$^\#$\\
-		{\scriptsize -}                   & \textbf{C} & \textbf{D} & \textbf{E} & \textbf{F} & \textbf{G} & \textbf{A} & \textbf{B}\\
-		{\scriptsize b}                   & F  & G  & A  & B$^\textrm{b}$ & C  & D  & E\\
-		{\scriptsize bb}                  & B$^\textrm{b}$ & C     & D     & E$^\textrm{b}$ & F     & G     & A\\
-		{\scriptsize bbb}                 & E$^\textrm{b}$ & F     & G     & A$^\textrm{b}$ & B$^\textrm{b}$ & C     & D\\
-		{\scriptsize bbbb}                & A$^\textrm{b}$ & B$^\textrm{b}$ & C     & D$^\textrm{b}$ & E$^\textrm{b}$ & F     & G\\
-		{\scriptsize bbbbb}               & D$^\textrm{b}$ & E$^\textrm{b}$ & F     & G$^\textrm{b}$ & A$^\textrm{b}$ & B$^\textrm{b}$ & C\\
-		{\scriptsize bbbbbb}              & G$^\textrm{b}$ & A$^\textrm{b}$ & B$^\textrm{b}$ & C$^\textrm{b}$ & D$^\textrm{b}$ & E$^\textrm{b}$ & F\\
-		\hline
-		
-		\hline \vspace{-0.2cm}
-	\end{tabular}
-	\label{tab: }
-	\end{adjustwidth}
-\end{table*}
+\input{tableaux/gammes_harmonisee.tex}
 
-
-% Table
-\begin{table*}[!h]
-	\caption{harmonization of scales}
-	\begin{adjustwidth}{0cm}{}
-	\begin{tabular}{r|ccc cccc}
-		\hline \vspace{-0.4cm} \\
-		\multirow{2}{*}{Major}          & 1 & 2 & 3 & 4 & 5 & 6 & 7\\ 
-		                                & I$^\Delta$ & ii$^{7}$ & iii$^{7}$ & IV$^\Delta$ & V$^7$ & vi$^{7}$ & vii$^{\varnothing}$ \\
-		\hline \vspace{-0.2cm} \\
-		\multirow{2}{*}{Minor natural} & 1 & 2 & b3 & 4 & 5 & b6 & b7\\ 
-		                                & i$^7$ & ii$^{\varnothing}$ & bIII$^{\Delta}$ & iv$^7$ & v$^7$ & bVI$^{\Delta}$ & bVII$^{7}$ \\
-		\hline \vspace{-0.2cm} \\
-		\multirow{2}{*}{Harmonic minor} & 1 & 2 & b3 & 4 & 5 & b6 & 7\\ 
-		                                & i$^{\Delta}$ & ii$^{\varnothing}$ & bIII$^{\Delta, \textrm{aug}}$ & iv$^7$ & V$^7$ & bVI$^{\Delta}$ & vii$^{\circ 7}$ \\
-		\hline \vspace{-0.2cm} \\
-		\multirow{2}{*}{Melodic minor} & 1 & 2 & b3 & 4 & 5 & 6 & 7\\ 
-			                           & i$^{\Delta}$ & ii$^{7}$ & bIII$^{\Delta, \textrm{aug}}$ & IV$^7$ & V$^7$ & vi$^{\varnothing}$ & vii$^{\varnothing}$ \\
-			                           \hline \vspace{-0.2cm} \\
-		\multirow{2}{*}{Dorian}        & 1 & 2 & b3 & 4 & 5 & 6 & b7\\ 
-			                           & i$^{7}$ & ii$^{7}$ & bIII$^{\Delta}$ & IV$^7$ & v$^7$ & vi$^{\varnothing}$ & bVII$^{\Delta}$ \\
-		\hline 
-	\end{tabular}
-	\label{tab: }
-	\end{adjustwidth}
-\end{table*}
 
 \begin{itemize}
 	\item Ionian (Joy), dorian(Jazz), phrygian(flamenco,doom), lydian (floaty,mystery) (ex: E.T., Jurassic Park, Back to the Future), mixo(blues)(ex: AC/DC), aeolian(sad)(ex: Losing my Religion), locrian(tension)(ex:Bjork Army of Me) 
@@ -578,49 +357,7 @@ Concepts:
 https://www.youtube.com/watch?v=Vxac3hHrxg8
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newpage
-\section{Blues}
 
-% Table
-\begin{table*}[!h]
-	\caption{Blues scales (relative to the major scale)}
-	\centering
-	%\begin{adjustwidth}{0cm}{}
-	\begin{tabular}{l|cccccccc}
-		Scale name  & \multicolumn{8}{c}{Formula} \\ 
-		\hline \hline \vspace{-0.4cm} \\
-		Blues Major   & 1 & 2  & \textcolor{red}{b3} & 3  &   -   & 5  & 6  &  -  \\ 
-		Blues minor   & 1 &  - & b3 & 4  & \textcolor{red}{b5} &  5  & - &  b7 \\ 
-	\end{tabular}
-	\label{tab: }
-	%\end{adjustwidth}
-\end{table*}
-
-% Table
-\begin{table*}[!h]
-	\caption{12 bar blues in C major}
-	\centering
-	\begin{tabular}{| c | c | c | c |}
-		\hline
-		\phantom{x}C7\phantom{x} & \phantom{x}C7\phantom{x} & \phantom{x}C7\phantom{x} & \phantom{x}C7\phantom{x}  \\ 
-		\hline
-		\phantom{x}F7\phantom{x} & \phantom{x}F7\phantom{x} & \phantom{x}C7\phantom{x} & \phantom{x}C7\phantom{x}  \\ 
-		\hline
-		\phantom{x}G7\phantom{x} & \phantom{x}F7\phantom{x} & \phantom{x}C7\phantom{x} & \phantom{x}G7\phantom{x}  \\ 
-		\hline
-	\end{tabular}
-	\label{tab: }
-\end{table*}
-
-% Figure 
-\begin{figure}[h!]
-	\centering
-	\hspace*{-1cm}
-	\includegraphics[width=8cm, trim= {0cm 0cm 0cm 0cm}, clip]{Blues/main.pdf}
-	\caption{ }
-	\label{fig}
-\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
