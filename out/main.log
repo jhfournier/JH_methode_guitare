@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.13)  30 AUG 2025 19:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.13)  30 AUG 2025 23:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -765,29 +765,59 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count318
 \l__pdf_internal_box=\box64
 )
-(/Users/jh/Dropbox/Musique_sync/Theorie/JH_Methode_guitare/out/main.aux)
+(/Users/jh/Dropbox/Musique_sync/Theorie/JH_Methode_guitare/out/main.aux
+
+LaTeX Warning: Label `tab: ' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `tab: ' multiply defined.
+
+
+LaTeX Warning: Label `tab: ' multiply defined.
+
+
+LaTeX Warning: Label `tab: ' multiply defined.
+
+
+LaTeX Warning: Label `tab: ' multiply defined.
+
+
+LaTeX Warning: Label `tab: ' multiply defined.
+
+
+LaTeX Warning: Label `tab: ' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-
-(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+ (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count319
 \scratchdimen=\dimen299
@@ -815,7 +845,7 @@ Package caption Info: changepage package is loaded.
 \caption@adjustwidth@linewidth=\dimen302
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 62.
+Package hyperref Info: Link coloring OFF on input line 58.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -829,9 +859,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count325
 )
-LaTeX Info: Redefining \ref on input line 62.
-LaTeX Info: Redefining \pageref on input line 62.
-LaTeX Info: Redefining \nameref on input line 62.
+LaTeX Info: Redefining \ref on input line 58.
+LaTeX Info: Redefining \pageref on input line 58.
+LaTeX Info: Redefining \nameref on input line 58.
  (/Users/jh/Dropbox/Musique_sync/Theorie/JH_Methode_guitare/out/main.out)
 (/Users/jh/Dropbox/Musique_sync/Theorie/JH_Methode_guitare/out/main.out)
 \@outlinefile=\write4
@@ -842,14 +872,14 @@ LaTeX Info: Redefining \nameref on input line 62.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.17} into 
 your preamble.
- on input line 62.
+ on input line 58.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 65.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 61.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 61.
 
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -862,269 +892,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout5 = `main.toc'.
 
 
-[2] (./figures/serie_harmonique/main.tex
-
-./figures/serie_harmonique/main.tex:1: LaTeX Error: Can be used only in preambl
-e.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \documentclass
-                  {standalone}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./figures/serie_harmonique/main.tex:2: LaTeX Error: Can be used only in preambl
-e.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2 \usepackage
-               {graphicx}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./figures/serie_harmonique/main.tex:3: LaTeX Error: Can be used only in preambl
-e.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 \usepackage
-               {tikz}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./figures/serie_harmonique/main.tex:4: LaTeX Error: Can be used only in preambl
-e.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 \usepackage
-               {pgfplots}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplo
-ts.groupplots.code.tex
-\pgfplots@group@current@plot=\count326
-\pgfplots@group@current@row=\count327
-\pgfplots@group@current@column=\count328
-
-(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibrarycalc.code.tex
-File: tikzlibrarycalc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-))
-
-./figures/serie_harmonique/main.tex:55: LaTeX Error: Can be used only in preamb
-le.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.55 \begin{document}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./figures/serie_harmonique/main.tex:1772: Improper \prevdepth.
-\newpage ...everypar {}\fi \par \ifdim \prevdepth 
-                                                  >\z@ \vskip -\ifdim \prevd...
-l.1772 \end{document}
-                     
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-./figures/serie_harmonique/main.tex:1772: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.1772 \end{document}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./figures/serie_harmonique/main.tex:1772: Missing } inserted.
-<inserted text> 
-                }
-l.1772 \end{document}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./figures/serie_harmonique/main.tex:1772: Missing } inserted.
-<inserted text> 
-                }
-l.1772 \end{document}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-./figures/serie_harmonique/main.tex:1772: LaTeX Error: \begin{figure} on input 
-line 83 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1772 \end{document}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-(/Users/jh/Dropbox/Musique_sync/Theorie/JH_Methode_guitare/out/main.aux)
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 38209EAEA3AE0B576BEDD58A3AF088D4;373
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
-./figures/serie_harmonique/main.tex:1772: You can't use `\end' in internal vert
-ical mode.
-\enddocument ...cument/end}\deadcycles \z@ \@@end 
-                                                  
-l.1772 \end{document}
-                     
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-./figures/serie_harmonique/main.tex:1772: LaTeX Error: \begin{figure} on input 
-line 83 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1772 \end{document}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./figures/serie_harmonique/main.tex:1772: Missing } inserted.
-<inserted text> 
-                }
-l.1772 \end{document}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-)
-./main.tex:86: Extra }, or forgotten \endgroup.
-\Gscale@box ...cale@y {#2}\setbox \z@ \hbox {{#3}}
-                                                  \setbox \tw@ \hbox {\Gscal...
-l.86 ...\input{figures/serie_harmonique/main.tex}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./main.tex:86: Undefined control sequence.
-<argument> \Gscale@x 
-                     
-l.86 ...\input{figures/serie_harmonique/main.tex}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:86: Undefined control sequence.
-<argument> \Gscale@y 
-                     
-l.86 ...\input{figures/serie_harmonique/main.tex}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 87.
-See the caption package documentation for explanation.
-
-./main.tex:89: Extra }, or forgotten \endgroup.
-\@endfloatbox ...pagefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.89 \end{figure}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./main.tex:89: Too many }'s.
-\color@endbox ->\color@endgroup \egroup 
-                                        
-l.89 \end{figure}
-                 
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-
-./main.tex:89: LaTeX Error: \begin{document} ended by \end{figure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.89 \end{figure}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./main.tex:89: Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.89 \end{figure}
-                 
-Things are pretty mixed up, but I think the worst is over.
-
-(./tableaux/harmoniques.tex
+[2] (./figures/serie_harmonique.tex) (./tableaux/harmoniques.tex
 Overfull \hbox (61.55048pt too wide) in paragraph at lines 6--40
  [][] 
  []
@@ -1134,73 +902,31 @@ Overfull \hbox (26.36781pt too wide) in paragraph at lines 5--42
 [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-)
-<./figures//Harmonic_entropy.png, id=35, 12045.0pt x 5940.1925pt>
+) [3]
+<./figures//Harmonic_entropy.png, id=114, 12045.0pt x 5940.1925pt>
 File: ./figures//Harmonic_entropy.png Graphic file (type png)
 <use ./figures//Harmonic_entropy.png>
 Package pdftex.def Info: ./figures//Harmonic_entropy.png  used on input line 10
-7.
+3.
 (pdftex.def)             Requested size: 361.33441pt x 178.19809pt.
 
-Overfull \hbox (18.55663pt too wide) in paragraph at lines 106--108
+Overfull \hbox (18.55663pt too wide) in paragraph at lines 102--104
  []| [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./figures//battement/main.pdf, id=37, 377.44513pt x 213.17644pt>
+<./figures//battement/main.pdf, id=116, 377.44513pt x 213.17644pt>
 File: ./figures//battement/main.pdf Graphic file (type pdf)
 <use ./figures//battement/main.pdf>
-Package pdftex.def Info: ./figures//battement/main.pdf  used on input line 116.
+Package pdftex.def Info: ./figures//battement/main.pdf  used on input line 112.
 
 (pdftex.def)             Requested size: 188.72209pt x 106.58795pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3
-\BOOKMARK [1][-]{section.1}{\376\377\000I\000n\000t\000e\000r\000v\000a\000l\00
-0s\000:\000\040\000w\000h\000e\000r\000e\000\040\000d\000o\000\040\000n\000o\00
-0t\000e\000s\000\040\000c\000o\000m\000e\000\040\000f\000r\000o\000m\000?}{}% 1
-
-\@writefile{toc}{\contentsline {section}{\numberline {1}Intervals: where do not
-es come from?}{3}{section.1}\protected@file@percent }
-\BOOKMARK [2][-]{subsection.1.1}{\376\377\000H\000a\000r\000m\000o\000n\000i\00
-0c\000\040\000s\000e\000r\000i\000e\000s}{section.1}% 2
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Harmonic series}{3
-}{subsection.1.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces The harmo
-nic series\relax }}{3}{figure.1}\protected@file@percent }
-\newlabel{fig:serie_harmonique}{{1}{3}{The harmonic series\relax }{figure.1}{}}
-
-\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Intervals 
-and \relax }}{3}{table.caption.3}\protected@file@percent }
-\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{tab: }{{1}{3}{Intervals and \relax }{table.caption.3}{}}
-\BOOKMARK [2][-]{subsection.1.2}{\376\377\000C\000o\000n\000s\000o\000n\000a\00
-0n\000c\000e\000\040\000a\000n\000d\000\040\000d\000i\000s\000s\000o\000n\000a\
-000n\000c\000e}{section.1}% 3
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Consonance and dis
-sonance}{3}{subsection.1.2}\protected@file@percent }
-]
-
-LaTeX Warning: Text page 4 contains only floats.
-
-[4
-\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Intervals 
-chart in relation to C note. Minor (m or ``-''), major (M or ``maj''), augmente
-d (A or ``aug'' or ``$\#$'' or ``$+$'') and diminished (d or ``dim'' or ``b'').
- \relax }}{4}{table.caption.4}\protected@file@percent }
-\newlabel{tab: }{{2}{4}{Intervals chart in relation to C note. Minor (m or ``-'
-'), major (M or ``maj''), augmented (A or ``aug'' or ``$\#$'' or ``$+$'') and d
-iminished (d or ``dim'' or ``b''). \relax }{table.caption.4}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Harmonic 
-entropy\relax }}{4}{figure.caption.5}\protected@file@percent }
-\newlabel{fig}{{2}{4}{Harmonic entropy\relax }{figure.caption.5}{}}
- <./figures//Harmonic_entropy.png>] (./tableaux/gammes.tex
+[4] (./tableaux/gammes.tex
 Overfull \hbox (122.29149pt too wide) in paragraph at lines 5--154
 [][]
  []
@@ -1208,307 +934,140 @@ Overfull \hbox (122.29149pt too wide) in paragraph at lines 5--154
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [5
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Beat tone
-\relax }}{5}{figure.caption.6}\protected@file@percent }
-\newlabel{fig}{{3}{5}{Beat tone\relax }{figure.caption.6}{}}
-\BOOKMARK [1][-]{section.2}{\376\377\000S\000c\000a\000l\000e\000s}{}% 4
-\@writefile{toc}{\contentsline {section}{\numberline {2}Scales}{5}{section.2}\p
-rotected@file@percent }
- <./figures//battement/main.pdf>]
-<./figures//gamme_majeure_manche/main.pdf, id=89, 821.5513pt x 213.29488pt>
-File: ./figures//gamme_majeure_manche/main.pdf Graphic file (type pdf)
-<use ./figures//gamme_majeure_manche/main.pdf>
-Package pdftex.def Info: ./figures//gamme_majeure_manche/main.pdf  used on inpu
-t line 147.
-(pdftex.def)             Requested size: 451.85461pt x 117.31253pt.
-
-Overfull \hbox (52.17133pt too wide) in paragraph at lines 146--148
+) [5 <./figures//Harmonic_entropy.png> <./figures//battement/main.pdf>]
+(./figures/gamme_majeure_manche.tex)
+Overfull \hbox (17.99051pt too wide) in paragraph at lines 142--145
  []|  [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6
-\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Scales for
-mula (relative to the major scale)\relax }}{6}{table.caption.7}\protected@file@
-percent }
-\newlabel{tab: }{{3}{6}{Scales formula (relative to the major scale)\relax }{ta
-ble.caption.7}{}}
-\BOOKMARK [2][-]{subsection.2.1}{\376\377\000M\000a\000j\000o\000r\000\040\000s
-\000c\000a\000l\000e}{section.2}% 5
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Major scale}{6}{su
-bsection.2.1}\protected@file@percent }
-]
-<./figures//gamme_penta_manche/main.pdf, id=99, 821.5513pt x 187.30678pt>
-File: ./figures//gamme_penta_manche/main.pdf Graphic file (type pdf)
-<use ./figures//gamme_penta_manche/main.pdf>
-Package pdftex.def Info: ./figures//gamme_penta_manche/main.pdf  used on input 
-line 158.
-(pdftex.def)             Requested size: 451.85461pt x 103.01903pt.
-
-Overfull \hbox (52.17133pt too wide) in paragraph at lines 157--159
+[6] (./figures/gamme_penta_manche.tex)
+Overfull \hbox (17.99051pt too wide) in paragraph at lines 154--157
  []|  [] 
  []
 
-[7
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces G Major s
-cale on the fretboard\relax }}{7}{figure.caption.8}\protected@file@percent }
-\newlabel{fig:gamme_majeure_manche}{{4}{7}{G Major scale on the fretboard\relax
- }{figure.caption.8}{}}
-\BOOKMARK [2][-]{subsection.2.2}{\376\377\000P\000e\000n\000t\000a\000t\000o\00
-0n\000i\000c\000\040\000s\000c\000a\000l\000e}{section.2}% 6
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Pentatonic scale}{
-7}{subsection.2.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Pattern o
-f pentatonic scales\relax }}{7}{figure.caption.9}\protected@file@percent }
-\newlabel{fig:gammme_penta_manche}{{5}{7}{Pattern of pentatonic scales\relax }{
-figure.caption.9}{}}
- <./figures//gamme_majeure_manche/main.pdf> <./figures//gamme_penta_manche/main
-.pdf>] (./figures/blues/penta_mineur.tex) [8
-\BOOKMARK [2][-]{subsection.2.3}{\376\377\000B\000l\000u\000e\000s}{section.2}%
- 7
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Blues}{8}{subsecti
-on.2.3}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Blues scal
-es (relative to the major scale)\relax }}{8}{table.caption.10}\protected@file@p
-ercent }
-\newlabel{tab: }{{4}{8}{Blues scales (relative to the major scale)\relax }{tabl
-e.caption.10}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces 12 bar blu
-es in C major\relax }}{8}{table.caption.11}\protected@file@percent }
-\newlabel{tab: }{{5}{8}{12 bar blues in C major\relax }{table.caption.11}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces  \relax }
-}{8}{figure.caption.12}\protected@file@percent }
-\newlabel{fig:blues_penta_mineur}{{6}{8}{\relax }{figure.caption.12}{}}
-] [9
-\BOOKMARK [1][-]{section.3}{\376\377\000C\000h\000o\000r\000d\000s}{}% 8
-\@writefile{toc}{\contentsline {section}{\numberline {3}Chords}{9}{section.3}\p
-rotected@file@percent }
-] (./tableaux/accords.tex) [10
-\BOOKMARK [2][-]{subsection.3.1}{\376\377\000F\000o\000r\000m\000a\000t\000i\00
-0o\000n\000\040\000o\000f\000\040\000c\000h\000o\000r\000d\000s}{section.3}% 9
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Formation of chord
-s}{10}{subsection.3.1}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Constructi
-on of chords (notation is relative to the major scale)\relax }}{10}{table.capti
-on.13}\protected@file@percent }
-\newlabel{tab: }{{6}{10}{Construction of chords (notation is relative to the ma
-jor scale)\relax }{table.caption.13}{}}
-]
-<figures/chord-inversions/maj7.pdf, id=178, 634.1pt x 163.85716pt>
-File: figures/chord-inversions/maj7.pdf Graphic file (type pdf)
-<use figures/chord-inversions/maj7.pdf>
-Package pdftex.def Info: figures/chord-inversions/maj7.pdf  used on input line 
-242.
-(pdftex.def)             Requested size: 443.86697pt x 114.6992pt.
-<figures/chord-inversions/Dominant7.pdf, id=180, 634.1pt x 163.85716pt>
-File: figures/chord-inversions/Dominant7.pdf Graphic file (type pdf)
-<use figures/chord-inversions/Dominant7.pdf>
-Package pdftex.def Info: figures/chord-inversions/Dominant7.pdf  used on input 
-line 244.
-(pdftex.def)             Requested size: 443.86697pt x 114.6992pt.
-<figures/chord-inversions/m7.pdf, id=182, 634.1pt x 163.85716pt>
-File: figures/chord-inversions/m7.pdf Graphic file (type pdf)
-<use figures/chord-inversions/m7.pdf>
-Package pdftex.def Info: figures/chord-inversions/m7.pdf  used on input line 24
-6.
-(pdftex.def)             Requested size: 443.86697pt x 114.6992pt.
+[7] (./figures/blues_penta_mineur.tex) (./figures/blues_penta_majeur.tex)
+(./figures/blues_penta.tex) [8] [9] (./tableaux/accords.tex) [10]
+(./tableaux/gammes_harmonisee.tex
+./tableaux/gammes_harmonisee.tex:9: Missing } inserted.
+<inserted text> 
+                }
+l.9 ...i$^{-7}$ & iii$^{-7 \phantom{\textrm{aug}}$
+                                                   & IV$^\Delta$ & V$^7$ & v...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-Overfull \hbox (38.49323pt too wide) in paragraph at lines 241--247
- []|  [] 
+) (./tableaux/modes.tex
+./tableaux/modes.tex:9: Missing $ inserted.
+<inserted text> 
+                $
+l.9 		Diatonic chords & I & ii$ &
+                                  iii  & IV & V & vi & vii$^{\circ}$ \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (13.44847pt too wide) in paragraph at lines 5--31
+[][]
  []
 
-
-Overfull \hbox (38.49323pt too wide) in paragraph at lines 241--247
- |  [] 
- []
-
-
-Overfull \hbox (38.49323pt too wide) in paragraph at lines 241--247
- |  [] 
- []
-
-[11
-\BOOKMARK [2][-]{subsection.3.2}{\376\377\000C\000h\000o\000r\000d\000\040\000i
-\000n\000v\000e\000r\000s\000i\000o\000n\000s}{section.3}% 10
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Chord inversions}{
-11}{subsection.3.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces  \relax }
-}{11}{figure.caption.14}\protected@file@percent }
-\newlabel{fig}{{7}{11}{\relax }{figure.caption.14}{}}
- <./figures/chord-inversions/maj7.pdf> <./figures/chord-inversions/Dominant7.pd
-f> <./figures/chord-inversions/m7.pdf>] (./tableaux/Progression_accord.tex
+) [11] (./tableaux/Progression_accord.tex
 Overfull \hbox (103.56494pt too wide) in paragraph at lines 6--33
 [][] 
  []
 
-) [12
-\BOOKMARK [2][-]{subsection.3.3}{\376\377\000C\000h\000o\000r\000d\000\040\000p
-\000r\000o\000g\000r\000e\000s\000s\000i\000o\000n\000\040\000a\000n\000d\000\0
-40\000e\000x\000a\000m\000p\000l\000e}{section.3}% 11
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Chord progression 
-and example}{12}{subsection.3.3}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Famous cho
-rd progressions\relax }}{12}{table.caption.15}\protected@file@percent }
-\newlabel{tab:}{{7}{12}{Famous chord progressions\relax }{table.caption.15}{}}
-]
-<./figures//Circle_5th.png, id=226, 738.76pt x 738.76pt>
-File: ./figures//Circle_5th.png Graphic file (type png)
-<use ./figures//Circle_5th.png>
-Package pdftex.def Info: ./figures//Circle_5th.png  used on input line 293.
-(pdftex.def)             Requested size: 221.6297pt x 221.6297pt.
- [13
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces  \relax }
-}{13}{figure.caption.16}\protected@file@percent }
-\newlabel{fig}{{8}{13}{\relax }{figure.caption.16}{}}
- <./figures//Circle_5th.png>] [14] (./tableaux/modes.tex
-Overfull \hbox (85.69019pt too wide) in paragraph at lines 5--28
-[][]
+) [12]
+<figures/chord-inversions/maj7.pdf, id=206, 634.1pt x 163.85716pt>
+File: figures/chord-inversions/maj7.pdf Graphic file (type pdf)
+<use figures/chord-inversions/maj7.pdf>
+Package pdftex.def Info: figures/chord-inversions/maj7.pdf  used on input line 
+259.
+(pdftex.def)             Requested size: 443.86697pt x 114.6992pt.
+<figures/chord-inversions/Dominant7.pdf, id=208, 634.1pt x 163.85716pt>
+File: figures/chord-inversions/Dominant7.pdf Graphic file (type pdf)
+<use figures/chord-inversions/Dominant7.pdf>
+Package pdftex.def Info: figures/chord-inversions/Dominant7.pdf  used on input 
+line 261.
+(pdftex.def)             Requested size: 443.86697pt x 114.6992pt.
+<figures/chord-inversions/m7.pdf, id=210, 634.1pt x 163.85716pt>
+File: figures/chord-inversions/m7.pdf Graphic file (type pdf)
+<use figures/chord-inversions/m7.pdf>
+Package pdftex.def Info: figures/chord-inversions/m7.pdf  used on input line 26
+3.
+(pdftex.def)             Requested size: 443.86697pt x 114.6992pt.
+
+Overfull \hbox (38.49323pt too wide) in paragraph at lines 258--264
+ []|  [] 
  []
 
-) (./tableaux/gammes_harmonisee.tex)
-Overfull \hbox (12.75089pt too wide) in paragraph at lines 315--316
+
+Overfull \hbox (38.49323pt too wide) in paragraph at lines 258--264
+ |  [] 
+ []
+
+
+Overfull \hbox (38.49323pt too wide) in paragraph at lines 258--264
+ |  [] 
+ []
+
+[13 <./figures/chord-inversions/maj7.pdf> <./figures/chord-inversions/Dominant7
+.pdf> <./figures/chord-inversions/m7.pdf>]
+<./figures//Circle_5th.png, id=245, 738.76pt x 738.76pt>
+File: ./figures//Circle_5th.png Graphic file (type png)
+<use ./figures//Circle_5th.png>
+Package pdftex.def Info: ./figures//Circle_5th.png  used on input line 305.
+(pdftex.def)             Requested size: 221.6297pt x 221.6297pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[14]
+Overfull \hbox (12.75089pt too wide) in paragraph at lines 320--321
 []\OT1/cmr/m/n/10 Ionian (Joy), do-rian(Jazz), phry-gian(flamenco,doom), ly-dia
 n (floaty,mystery)
  []
 
-[15
-\BOOKMARK [1][-]{section.4}{\376\377\000M\000o\000d\000e\000s}{}% 12
-\@writefile{toc}{\contentsline {section}{\numberline {4}Modes}{15}{section.4}\p
-rotected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Table of m
-odes \relax }}{15}{table.caption.17}\protected@file@percent }
-\newlabel{tab: }{{8}{15}{Table of modes \relax }{table.caption.17}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces harmonizat
-ion of scales\relax }}{15}{table.caption.18}\protected@file@percent }
-\newlabel{tab: }{{9}{15}{harmonization of scales\relax }{table.caption.18}{}}
-] [16]
-<./figures//Arpeges/maj7_chords.pdf, id=254, 634.1pt x 169.89874pt>
-File: ./figures//Arpeges/maj7_chords.pdf Graphic file (type pdf)
-<use ./figures//Arpeges/maj7_chords.pdf>
-Package pdftex.def Info: ./figures//Arpeges/maj7_chords.pdf  used on input line
- 330.
-(pdftex.def)             Requested size: 298.75394pt x 80.04684pt.
-<./figures//Arpeges/2notes_maj7_chords.pdf, id=256, 634.1pt x 163.85716pt>
-File: ./figures//Arpeges/2notes_maj7_chords.pdf Graphic file (type pdf)
-<use ./figures//Arpeges/2notes_maj7_chords.pdf>
-Package pdftex.def Info: ./figures//Arpeges/2notes_maj7_chords.pdf  used on inp
-ut line 332.
-(pdftex.def)             Requested size: 298.75394pt x 77.20038pt.
-
-Overfull \hbox (116.91075pt too wide) in paragraph at lines 329--333
+[15 <./figures//Circle_5th.png>] (./figures/arpeges/maj7_chords.tex)
+(./figures/arpeges/2notes_maj7_chords.tex)
+Overfull \hbox (105.84966pt too wide) in paragraph at lines 334--340
 []|  [] |  [] 
  []
 
-<./figures//Arpeges/dom7_chords.pdf, id=258, 634.1pt x 169.89874pt>
-File: ./figures//Arpeges/dom7_chords.pdf Graphic file (type pdf)
-<use ./figures//Arpeges/dom7_chords.pdf>
-Package pdftex.def Info: ./figures//Arpeges/dom7_chords.pdf  used on input line
- 335.
-(pdftex.def)             Requested size: 298.75394pt x 80.04684pt.
-<./figures//Arpeges/2notes_dom7_chords.pdf, id=260, 634.1pt x 163.85716pt>
-File: ./figures//Arpeges/2notes_dom7_chords.pdf Graphic file (type pdf)
-<use ./figures//Arpeges/2notes_dom7_chords.pdf>
-Package pdftex.def Info: ./figures//Arpeges/2notes_dom7_chords.pdf  used on inp
-ut line 337.
-(pdftex.def)             Requested size: 298.75394pt x 77.20038pt.
-
-Overfull \hbox (116.91075pt too wide) in paragraph at lines 334--338
+(./figures/arpeges/dom7_chords.tex) (./figures/arpeges/2notes_dom7_chords.tex)
+Overfull \hbox (105.84966pt too wide) in paragraph at lines 341--347
 []|  [] |  [] 
  []
 
-<./figures//Arpeges/m7_chords.pdf, id=262, 634.1pt x 169.89874pt>
-File: ./figures//Arpeges/m7_chords.pdf Graphic file (type pdf)
-<use ./figures//Arpeges/m7_chords.pdf>
-Package pdftex.def Info: ./figures//Arpeges/m7_chords.pdf  used on input line 3
-40.
-(pdftex.def)             Requested size: 298.75394pt x 80.04684pt.
-<./figures//Arpeges/2notes_m7_chords.pdf, id=264, 634.1pt x 163.85716pt>
-File: ./figures//Arpeges/2notes_m7_chords.pdf Graphic file (type pdf)
-<use ./figures//Arpeges/2notes_m7_chords.pdf>
-Package pdftex.def Info: ./figures//Arpeges/2notes_m7_chords.pdf  used on input
- line 342.
-(pdftex.def)             Requested size: 298.75394pt x 77.20038pt.
-
-Overfull \hbox (116.91075pt too wide) in paragraph at lines 339--343
+(./figures/arpeges/m7_chords.tex) (./figures/arpeges/2notes_m7_chords.tex)
+Overfull \hbox (105.84966pt too wide) in paragraph at lines 348--354
 []|  [] |  [] 
  []
 
-<./figures//Arpeges/m7b5_chords.pdf, id=266, 634.1pt x 169.89874pt>
-File: ./figures//Arpeges/m7b5_chords.pdf Graphic file (type pdf)
-<use ./figures//Arpeges/m7b5_chords.pdf>
-Package pdftex.def Info: ./figures//Arpeges/m7b5_chords.pdf  used on input line
- 345.
-(pdftex.def)             Requested size: 298.75394pt x 80.04684pt.
-<./figures//Arpeges/2notes_m7b5_chords.pdf, id=268, 634.1pt x 163.85716pt>
-File: ./figures//Arpeges/2notes_m7b5_chords.pdf Graphic file (type pdf)
-<use ./figures//Arpeges/2notes_m7b5_chords.pdf>
-Package pdftex.def Info: ./figures//Arpeges/2notes_m7b5_chords.pdf  used on inp
-ut line 347.
-(pdftex.def)             Requested size: 298.75394pt x 77.20038pt.
-
-Overfull \hbox (116.91075pt too wide) in paragraph at lines 344--348
-[]|  [] |  [] 
- []
-
-[17
-\BOOKMARK [1][-]{section.5}{\376\377\000A\000r\000p\000e\000g\000g\000i\000o\00
-0s}{}% 13
-\@writefile{toc}{\contentsline {section}{\numberline {5}Arpeggios}{17}{section.
-5}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces G arpeggi
-o\relax }}{17}{table.caption.19}\protected@file@percent }
-\newlabel{fig}{{10}{17}{G arpeggio\relax }{table.caption.19}{}}
- <./figures//Arpeges/maj7_chords.pdf> <./figures//Arpeges/2notes_maj7_chords.pd
-f> <./figures//Arpeges/dom7_chords.pdf> <./figures//Arpeges/2notes_dom7_chords.
-pdf> <./figures//Arpeges/m7_chords.pdf> <./figures//Arpeges/2notes_m7_chords.pd
-f> <./figures//Arpeges/m7b5_chords.pdf> <./figures//Arpeges/2notes_m7b5_chords.
-pdf>] [18
-\BOOKMARK [1][-]{section.6}{\376\377\000T\000r\000a\000n\000s\000p\000o\000s\00
-0i\000t\000i\000o\000n}{}% 14
-\@writefile{toc}{\contentsline {section}{\numberline {6}Transposition}{18}{sect
-ion.6}\protected@file@percent }
-] [19
-\BOOKMARK [1][-]{section.7}{\376\377\000C\000o\000m\000p\000o\000s\000i\000t\00
-0i\000o\000n\000\040\000v\000a\000r\000i\000a\000t\000i\000o\000n\000\040\000\0
-50\000S\000h\000r\000e\000d\000\040\000M\000a\000s\000t\000e\000r\000\040\000S\
-000c\000o\000t\000t\000\051}{}% 15
-\@writefile{toc}{\contentsline {section}{\numberline {7}Composition variation (
-Shred Master Scott)}{19}{section.7}\protected@file@percent }
-]
-\bibstyle{plain}
-\bibdata{/home/jh/Documents/library.bib}
-(/Users/jh/Dropbox/Musique_sync/Theorie/JH_Methode_guitare/out/main.bbl
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-) [20]
-pdfTeX warning (\pdfobj): invalid object number being ignored
-
-pdfTeX warning (\pdfobj): invalid object number being ignored
-
-pdfTeX warning (\pdfobj): invalid object number being ignored
-\gdef \@abspage@last{20}
+(./figures/arpeges/m7b5_chords.tex) (./figures/arpeges/2notes_m7b5_chords.tex)
+[16] [17] [18]
 (/Users/jh/Dropbox/Musique_sync/Theorie/JH_Methode_guitare/out/main.aux)
 
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 38209EAEA3AE0B576BEDD58A3AF088D4;373
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: A4C1E2CC600AA344A42E14DC96AA2759;2296.
  ) 
 Here is how much of TeX's memory you used:
- 32811 strings out of 478994
- 765236 string characters out of 5858183
- 1459417 words of memory out of 5000000
- 49669 multiletter control sequences out of 15000+600000
- 413474 words of font info for 66 fonts, out of 8000000 for 9000
+ 32690 strings out of 478994
+ 758308 string characters out of 5858183
+ 1499842 words of memory out of 5000000
+ 49535 multiletter control sequences out of 15000+600000
+ 419060 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,14n,103p,766b,2584s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 102i,17n,103p,766b,2356s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
@@ -1522,17 +1081,18 @@ l/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/t
 exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texl
 ive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive
 /2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/20
-21/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/202
-1/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/te
-xmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/202
-1/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/
-2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+21/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf
+-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2021/t
+exmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/202
+1/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
 Output written on /Users/jh/Dropbox/Musique_sync/Theorie/JH_Methode_guitare/out
-/main.pdf (20 pages, 611285 bytes).
+/main.pdf (18 pages, 567564 bytes).
 PDF statistics:
- 537 PDF objects out of 1000 (max. 8388607)
- 369 compressed objects within 4 object streams
- 56 named destinations out of 1000 (max. 500000)
- 217 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 343 PDF objects out of 1000 (max. 8388607)
+ 278 compressed objects within 3 object streams
+ 54 named destinations out of 1000 (max. 500000)
+ 207 words of extra memory for PDF output out of 10000 (max. 10000000)
 

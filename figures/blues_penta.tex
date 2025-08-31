@@ -66,37 +66,28 @@
 	\draw[black] (-0.5,0*\h) node { {\Large E} };
 	
 	% Major scale (fret 1-5)
-	%\node[dot=\circ_size, fill=white,draw] at (1.5*\fret,0) { {\normalsize F}{\tiny $^\#$}};
-	\node[dot=\circ_size, fill=yellow,draw] at (2.5*\fret,0) {{\large \textcolor{red}{R}}};    % Root
-	\node[dot=\circ_size, fill=yellow, draw] at (4.5*\fret,0) {{\large 2}};
-	\node[dot=\circ_size, fill=yellow,draw] at (5.5*\fret,0*\h) {{\large \textcolor{red}{m3}}};
-	\node[dot=\circ_size, fill=yellow,draw] at (1.5*\fret,1*\h) {{\large M3}};
-	\node[dot=\circ_size, fill=yellow,draw] at (4.5*\fret,1*\h) {{\large 5}};
-	\node[dot=\circ_size, fill=yellow,draw] at (1.5*\fret,2*\h) {{\large 6}};
-	\node[dot=\circ_size, fill=yellow,draw] at (4.5*\fret,2*\h) {{\large R}}; % Root
-	\node[dot=\circ_size, fill=yellow,draw] at (1.5*\fret,3*\h) {{\large 2}};
-	\node[dot=\circ_size, fill=yellow,draw] at (2.5*\fret,3*\h) {{\large m3}};
-	\node[dot=\circ_size, fill=yellow,draw] at (3.5*\fret,3*\h) {{\large M3}};
-	\node[dot=\circ_size, fill=yellow,draw] at (2.5*\fret,4*\h) {{\large 5}};
-	\node[dot=\circ_size, fill=yellow,draw] at (4.5*\fret,4*\h) {{\large 6}};
-	\node[dot=\circ_size, fill=yellow,draw] at (2.5*\fret,5*\h) {{\large R}};
-	\node[dot=\circ_size, fill=yellow,draw] at (4.5*\fret,5*\h) {{\large 2}};
-	\node[dot=\circ_size, fill=yellow,draw] at (5.5*\fret,5*\h) {{m3}};
+	\node[dot=\circ_size, draw=red, line width=2,draw] at (4.5*\fret,0) {{\large \textcolor{red}{2}}};
+	\node[dot=\circ_size, draw=red, line width=2,draw] at (1.5*\fret,1*\h) {{\large \textcolor{red}{M3}}};
+	\node[dot=\circ_size, draw=red, line width=2,draw] at (1.5*\fret,2*\h) {{\large \textcolor{red}{6}}};
+	\node[dot=\circ_size, draw=red, line width=2,draw] at (1.5*\fret,3*\h) {{\large \textcolor{red}{2}}};
+	\node[dot=\circ_size, draw=red, line width=2,draw] at (3.5*\fret,3*\h) {{\large \textcolor{red}{M3}}};
+	\node[dot=\circ_size, draw=red, line width=2,draw] at (4.5*\fret,4*\h) {{\large \textcolor{red}{6}}};
+	\node[dot=\circ_size, draw=red, line width=2,draw] at (4.5*\fret,5*\h) {{\large \textcolor{red}{2}}};
 	
-	\node[dot=20pt, draw=red, fill=none, line width=2] at (2.5*\fret,0) {{\large }};    % Root
-	\node[dot=20pt, draw=red, fill=none, line width=2] at (5.5*\fret,0) {{\large }};    % m3
-	\node[dot=20pt, draw=red, fill=black, line width=2] at (2.5*\fret,1*\h) {{\large \textcolor{red}{4}}};    % 4
-	\node[dot=20pt, draw=red, fill=black, line width=2] at (3.5*\fret,1*\h) {{\large \textcolor{red}{b5}}}; 	
-	\node[dot=20pt, draw=red, fill=none, line width=2] at (4.5*\fret,1*\h) {{\large \textcolor{red}{5}}}; 
-	\node[dot=20pt, draw=red, fill=black, line width=2] at (2.5*\fret,2*\h) {{\large \textcolor{red}{b7}}}; 
-	\node[dot=20pt, draw=red, fill=none, line width=2] at (4.5*\fret,2*\h) {{\large \textcolor{red}{R}}}; 	
-	\node[dot=20pt, draw=red, fill=none, line width=2] at (2.5*\fret,3*\h) {{\large \textcolor{red}{m3}}}; 	
-	\node[dot=20pt, draw=red, fill=black, line width=2] at (4.5*\fret,3*\h) {{\large \textcolor{red}{4}}}; 	
-	\node[dot=20pt, draw=red, fill=black, line width=2] at (5.5*\fret,3*\h) {{\large \textcolor{red}{b5}}}; 
-	\node[dot=20pt, draw=red, fill=none, line width=2] at (2.5*\fret,4*\h) {{\large \textcolor{red}{5}}}; 
-	\node[dot=20pt, draw=red, fill=black, line width=2] at (5.5*\fret,4*\h) {{\large \textcolor{red}{b7}}}; 
-	\node[dot=20pt, draw=red, fill=none, line width=2] at (2.5*\fret,5*\h) {{\large \textcolor{red}{R}}}; 
-	\node[dot=20pt, draw=red, fill=black, line width=2] at (5.5*\fret,5*\h) {{\large \textcolor{red}{m3}}}; 
+	\node[dot=20pt, fill=yellow,draw] at (2.5*\fret,0) {{\large \textcolor{black}{R}}};    % Root
+	\node[dot=20pt, fill=yellow,draw] at (5.5*\fret,0) {{\large \textcolor{black}{m3}}};    % m3
+	\node[dot=20pt, fill=yellow,draw] at (2.5*\fret,1*\h) {{\large \textcolor{black}{4}}};    % 4
+	\node[dot=20pt, draw=red, line width=2,draw] at (3.5*\fret,1*\h) {{\large \textcolor{red}{b5}}};
+	\node[dot=20pt, fill=yellow,draw] at (4.5*\fret,1*\h) {{\large \textcolor{black}{5}}};
+	\node[dot=20pt, fill=yellow,draw] at (2.5*\fret,2*\h) {{\large \textcolor{black}{b7}}};
+	\node[dot=20pt, fill=yellow,draw] at (4.5*\fret,2*\h) {{\large \textcolor{black}{R}}};
+	\node[dot=20pt, fill=yellow,draw] at (2.5*\fret,3*\h) {{\large \textcolor{black}{m3}}};
+	\node[dot=20pt, fill=yellow,draw] at (4.5*\fret,3*\h) {{\large \textcolor{black}{4}}};
+	\node[dot=20pt, draw=red, line width=2,draw] at (5.5*\fret,3*\h) {{\large \textcolor{red}{b5}}};
+	\node[dot=20pt, fill=yellow,draw] at (2.5*\fret,4*\h) {{\large \textcolor{black}{5}}};
+	\node[dot=20pt, fill=yellow,draw] at (5.5*\fret,4*\h) {{\large \textcolor{black}{b7}}};
+	\node[dot=20pt, fill=yellow,draw] at (2.5*\fret,5*\h) {{\large \textcolor{black}{R}}};
+	\node[dot=20pt, fill=yellow,draw] at (5.5*\fret,5*\h) {{\large \textcolor{black}{m3}}};
 	
 \end{tikzpicture}
 %\end{document}

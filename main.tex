@@ -9,22 +9,18 @@
 
 \documentclass{article}
 
+% Latex packages
 \usepackage{parskip}
 \usepackage[shortlabels]{enumitem}
-%\usepackage[version=3]{mhchem} % Package for chemical equation typesetting
-%\usepackage{siunitx} % Provides the \SI{}{} and \si{} command for typesetting SI units
 \usepackage{graphicx} % Required for the inclusion of images
-%\usepackage{natbib} % Required to change bibliography style to APA
-\usepackage{amsmath,amssymb} % Required for some math elements 
+\usepackage{amsmath,amssymb} % Required for some math elements
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{hyperref}
 \setlength\parindent{0pt} % Removes all indentation from paragraphs
 \usepackage{booktabs}
-
 \usepackage{changepage}
 \usepackage{multirow}
-
 \usepackage{pgfplots} % Include package for TikZ and PGF plot
 \usepackage{anyfontsize} % enable to change the font size manually
 \usepackage{makecell}%
@@ -79,28 +75,28 @@
 
 \subsection{Harmonic series}
 
-% Figure 
+% Figure
 \begin{figure}[h!]
 	\centering
 %	\hspace*{0cm}
-	\scalebox{1}{\input{figures/serie_harmonique/main.tex}}
+	\scalebox{1}{\input{figures/serie_harmonique.tex}}
 	\caption{The harmonic series}
 	\label{fig:serie_harmonique}
-\end{figure} 
+\end{figure}
 
-%% Table
+% Table
 \input{tableaux/harmoniques}
 
 
-% Table
-% Source: https://hellomusictheory.com/learn/intervals/
+ Table
+ Source: https://hellomusictheory.com/learn/intervals/
 \input{tableaux/interval}
 
 
 % ****************************************************************************
 \subsection{Consonance and dissonance}
 
-% Figure 
+% Figure
 \begin{figure}[h!]
 	\centering
 	\hspace*{0cm}
@@ -109,7 +105,7 @@
 	\label{fig}
 \end{figure}
 
-% Figure 
+% Figure
 \begin{figure}[h!]
 	\centering
 	\hspace*{0cm}
@@ -140,22 +136,24 @@ Modes ranked by brightness: Super-locrian, locrian, phrygian, aeolian, dorian, m
 	\item Phrygian dominant (hijaz) (I-bII-iiidim-iv-vdim-bVI+-bvii)  Ex: Come out and Play The Offsprings
 \end{itemize}
 
-% Figure 
+% Figure
 \begin{figure}[h!]
 	\centering
 	\hspace*{-2cm}
-	\includegraphics[scale=0.55, trim= {0cm 0cm 0cm 0cm}, clip]{gamme_majeure_manche/main.pdf}
+%	\includegraphics[scale=0.55, trim= {0cm 0cm 0cm 0cm}, clip]{gamme_majeure_manche/main.pdf}
+	\scalebox{0.5}{\input{figures/gamme_majeure_manche.tex}}
 	\caption{G Major scale on the fretboard}
 	\label{fig:gamme_majeure_manche}
 \end{figure}
 
 \newpage
 \subsection{Pentatonic scale}
-% Figure 
+% Figure
 \begin{figure}[h!]
 	\centering
 	\hspace*{-2cm}
-	\includegraphics[scale=0.55, trim= {0cm 0cm 0cm 0cm}, clip]{gamme_penta_manche/main.pdf}
+%	\includegraphics[scale=0.55, trim= {0cm 0cm 0cm 0cm}, clip]{gamme_penta_manche/main.pdf}
+	\scalebox{0.5}{\input{figures/gamme_penta_manche.tex}}
 	\caption{Pattern of pentatonic scales}
 	\label{fig:gammme_penta_manche}
 \end{figure}
@@ -199,8 +197,13 @@ Modes ranked by brightness: Super-locrian, locrian, phrygian, aeolian, dorian, m
 \begin{figure}[h!]
 	\centering
 	\hspace*{-1cm}
-	\scalebox{0.7}{\input{figures/blues/penta_mineur.tex}}
-	\caption{ }
+	\scalebox{0.7}{\input{figures/blues_penta_mineur.tex}}
+%	\vspace{10cm}
+	\hspace*{-1cm}
+	\scalebox{0.7}{\input{figures/blues_penta_majeur.tex}}
+	\hspace*{-1cm}
+	\scalebox{0.7}{\input{figures/blues_penta.tex}}
+	\caption{(a) Minor pentatonic scale with blue note (b5). (b) Major pentatonic scale. (c) Blues scale  }
 	\label{fig:blues_penta_mineur}
 \end{figure}
 
@@ -211,7 +214,7 @@ Modes ranked by brightness: Super-locrian, locrian, phrygian, aeolian, dorian, m
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{itemize}
-	\item Tonic: I, iii, vi 
+	\item Tonic: I, iii, vi
 	\item Pre-dominant: IV, ii
 	\item Dominant: V, vii$^\circ$
 \end{itemize}
@@ -230,12 +233,26 @@ Modes ranked by brightness: Super-locrian, locrian, phrygian, aeolian, dorian, m
 % Source: 1997 - Vaillot Méthode Jazz
 \input{tableaux/accords.tex}
 
+\newpage
+\subsection{Harmonizing the major scale}
+% Table
+\input{tableaux/gammes_harmonisee.tex}
+
+% Table
+\input{tableaux/modes.tex}
+
+\newpage
+\subsection{Chord progression and example}
+
+% Table
+% Source: 1997 - Vaillot Méthode Jazz
+\input{tableaux/Progression_accord.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 \subsection{Chord inversions}
 
-% Figure 
+% Figure
 \begin{figure}[h!]
 	\centering
 	\hspace*{-2.2cm}
@@ -249,14 +266,9 @@ Modes ranked by brightness: Super-locrian, locrian, phrygian, aeolian, dorian, m
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newpage
-\subsection{Chord progression and example}
 
-% Table
-% Source: 1997 - Vaillot Méthode Jazz
-\input{tableaux/Progression_accord.tex}
 
-Concepts: 
+Concepts:
 \begin{itemize}
 	\item Borrowed chord: chord that is not built from the scale of the tonic. Examples:
 	\begin{itemize}
@@ -286,7 +298,7 @@ Concepts:
 \end{itemize}
 
 
-% Figure 
+% Figure
 \begin{figure}[h!]
 	\centering
 	\hspace*{-1cm}
@@ -304,15 +316,8 @@ Concepts:
 \newpage
 \section{Modes}
 
-% Table
-\input{tableaux/modes.tex}
-
-% Table
-\input{tableaux/gammes_harmonisee.tex}
-
-
 \begin{itemize}
-	\item Ionian (Joy), dorian(Jazz), phrygian(flamenco,doom), lydian (floaty,mystery) (ex: E.T., Jurassic Park, Back to the Future), mixo(blues)(ex: AC/DC), aeolian(sad)(ex: Losing my Religion), locrian(tension)(ex:Bjork Army of Me) 
+	\item Ionian (Joy), dorian(Jazz), phrygian(flamenco,doom), lydian (floaty,mystery) (ex: E.T., Jurassic Park, Back to the Future), mixo(blues)(ex: AC/DC), aeolian(sad)(ex: Losing my Religion), locrian(tension)(ex:Bjork Army of Me)
 	\item Harmonization of harmonic minor scale
 	\item Harmonization of melodic minor scale
 	\item How to use this table
@@ -327,26 +332,35 @@ Concepts:
 % Figure
 \begin{table}[!h]
 	\hspace*{-4cm}
-	\includegraphics[width=10.5cm, trim= {0cm 0cm 0cm 0cm}, clip]{Arpeges/maj7_chords.pdf}
+%	\includegraphics[width=10.5cm, trim= {0cm 0cm 0cm 0cm}, clip]{arpeges/maj7_chords.pdf}
+	\scalebox{0.46}{\input{figures/arpeges/maj7_chords.tex}}
 	\hspace*{-1cm}
-	\includegraphics[width=10.5cm, trim= {0cm 0cm 0cm 0cm}, clip]{Arpeges/2notes_maj7_chords.pdf}
-	
+%	\includegraphics[width=10.5cm, trim= {0cm 0cm 0cm 0cm}, clip]{arpeges/2notes_maj7_chords.pdf}
+	\scalebox{0.46}{\input{figures/arpeges/2notes_maj7_chords.tex}}
+
 	\hspace*{-4cm}
-	\includegraphics[width=10.5cm, trim= {0cm 0cm 0cm 0cm}, clip]{Arpeges/dom7_chords.pdf}
+%	\includegraphics[width=10.5cm, trim= {0cm 0cm 0cm 0cm}, clip]{arpeges/dom7_chords.pdf}
+	\scalebox{0.46}{\input{figures/arpeges/dom7_chords.tex}}
 	\hspace*{-1cm}
-	\includegraphics[width=10.5cm, trim= {0cm 0cm 0cm 0cm}, clip]{Arpeges/2notes_dom7_chords.pdf}
-	
+%	\includegraphics[width=10.5cm, trim= {0cm 0cm 0cm 0cm}, clip]{arpeges/2notes_dom7_chords.pdf}
+	\scalebox{0.46}{\input{figures/arpeges/2notes_dom7_chords.tex}}
+
 	\hspace*{-4cm}
-	\includegraphics[width=10.5cm, trim= {0cm 0cm 0cm 0cm}, clip]{Arpeges/m7_chords.pdf}
+%	\includegraphics[width=10.5cm, trim= {0cm 0cm 0cm 0cm}, clip]{arpeges/m7_chords.pdf}
+	\scalebox{0.46}{\input{figures/arpeges/m7_chords.tex}}
 	\hspace*{-1cm}
-	\includegraphics[width=10.5cm, trim= {0cm 0cm 0cm 0cm}, clip]{Arpeges/2notes_m7_chords.pdf}
-	
+%	\includegraphics[width=10.5cm, trim= {0cm 0cm 0cm 0cm}, clip]{arpeges/2notes_m7_chords.pdf}
+	\scalebox{0.46}{\input{figures/arpeges/2notes_m7_chords.tex}}
+
 	\hspace*{-4cm}
-	\includegraphics[width=10.5cm, trim= {0cm 0cm 0cm 0cm}, clip]{Arpeges/m7b5_chords.pdf}
+%	\includegraphics[width=10.5cm, trim= {0cm 0cm 0cm 0cm}, clip]{arpeges/m7b5_chords.pdf}
+	\scalebox{0.46}{\input{figures/arpeges/m7b5_chords.tex}}
 	\hspace*{-1cm}
-	\includegraphics[width=10.5cm, trim= {0cm 0cm 0cm 0cm}, clip]{Arpeges/2notes_m7b5_chords.pdf}
+
+%	\includegraphics[width=10.5cm, trim= {0cm 0cm 0cm 0cm}, clip]{arpeges/2notes_m7b5_chords.pdf}
+	\scalebox{0.46}{\input{figures/arpeges/2notes_m7b5_chords.tex}}
 	\caption{G arpeggio}
-	\label{fig}
+	\label{fig:arpeggio}
 \end{table}
 
 
@@ -369,8 +383,8 @@ https://www.youtube.com/watch?v=Vxac3hHrxg8
 	\item Voice leading
 \end{itemize}
 
-\newpage
-\bibliographystyle{plain}
-\bibliography{/home/jh/Documents/library.bib}
+%\newpage
+%\bibliographystyle{plain}
+%\bibliography{/home/jh/Documents/library.bib}
 
 \end{document}
