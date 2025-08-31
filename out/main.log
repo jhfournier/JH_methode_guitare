@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.13)  30 AUG 2025 23:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.13)  31 AUG 2025 02:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -796,6 +796,9 @@ LaTeX Warning: Label `fig' multiply defined.
 
 LaTeX Warning: Label `fig' multiply defined.
 
+
+LaTeX Warning: Label `fig:arpeggio' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
@@ -1029,43 +1032,82 @@ Package pdftex.def Info: ./figures//Circle_5th.png  used on input line 305.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[14]
-Overfull \hbox (12.75089pt too wide) in paragraph at lines 320--321
+[14] (./figures/arpeges/dom7/dom7_pos1.tex) (./figures/arpeges/m7/m7_pos1.tex)
+Overfull \hbox (122.03757pt too wide) in paragraph at lines 323--327
+[]|  [] | [] 
+ []
+
+(./figures/arpeges/dom7/dom7_pos2.tex) (./figures/arpeges/m7/m7_pos2.tex)
+Overfull \hbox (122.03757pt too wide) in paragraph at lines 328--332
+[]|  [] | [] 
+ []
+
+(./figures/arpeges/dom7/dom7_pos3.tex) (./figures/arpeges/m7/m7_pos3.tex)
+Overfull \hbox (122.03757pt too wide) in paragraph at lines 333--337
+[]|  [] | [] 
+ []
+
+(./figures/arpeges/dom7/dom7_pos4.tex) (./figures/arpeges/m7/m7_pos4.tex)
+Overfull \hbox (122.03757pt too wide) in paragraph at lines 338--342
+[]|  [] | [] 
+ []
+
+(./figures/arpeges/dom7/dom7_pos5.tex) (./figures/arpeges/m7/m7_pos5.tex)
+Overfull \hbox (122.03757pt too wide) in paragraph at lines 343--347
+[]|  [] | [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(./figures/arpeges/maj7/maj7_pos1.tex) (./figures/arpeges/m7b5/m7b5_pos1.tex)
+Overfull \hbox (122.03757pt too wide) in paragraph at lines 355--359
+[]|  [] | [] 
+ []
+
+(./figures/arpeges/maj7/maj7_pos2.tex) (./figures/arpeges/m7b5/m7b5_pos2.tex)
+Overfull \hbox (122.03757pt too wide) in paragraph at lines 360--364
+[]|  [] | [] 
+ []
+
+(./figures/arpeges/maj7/maj7_pos3.tex) (./figures/arpeges/m7b5/m7b5_pos3.tex)
+Overfull \hbox (122.03757pt too wide) in paragraph at lines 365--369
+[]|  [] | [] 
+ []
+
+(./figures/arpeges/maj7/maj7_pos4.tex) (./figures/arpeges/m7b5/m7b5_pos4.tex)
+Overfull \hbox (122.03757pt too wide) in paragraph at lines 370--374
+[]|  [] | [] 
+ []
+
+(./figures/arpeges/maj7/maj7_pos5.tex) (./figures/arpeges/m7b5/m7b5_pos5.tex)
+Overfull \hbox (122.03757pt too wide) in paragraph at lines 375--379
+[]|  [] | [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[15 <./figures//Circle_5th.png>]
+Overfull \hbox (12.75089pt too wide) in paragraph at lines 391--392
 []\OT1/cmr/m/n/10 Ionian (Joy), do-rian(Jazz), phry-gian(flamenco,doom), ly-dia
 n (floaty,mystery)
  []
 
-[15 <./figures//Circle_5th.png>] (./figures/arpeges/maj7_chords.tex)
-(./figures/arpeges/2notes_maj7_chords.tex)
-Overfull \hbox (105.84966pt too wide) in paragraph at lines 334--340
-[]|  [] |  [] 
- []
-
-(./figures/arpeges/dom7_chords.tex) (./figures/arpeges/2notes_dom7_chords.tex)
-Overfull \hbox (105.84966pt too wide) in paragraph at lines 341--347
-[]|  [] |  [] 
- []
-
-(./figures/arpeges/m7_chords.tex) (./figures/arpeges/2notes_m7_chords.tex)
-Overfull \hbox (105.84966pt too wide) in paragraph at lines 348--354
-[]|  [] |  [] 
- []
-
-(./figures/arpeges/m7b5_chords.tex) (./figures/arpeges/2notes_m7b5_chords.tex)
 [16] [17] [18]
 (/Users/jh/Dropbox/Musique_sync/Theorie/JH_Methode_guitare/out/main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A4C1E2CC600AA344A42E14DC96AA2759;2296.
+(rerunfilecheck)             Checksum: 2A03F3FF27A4335344939D9B7F47F69B;2296.
  ) 
 Here is how much of TeX's memory you used:
- 32690 strings out of 478994
- 758308 string characters out of 5858183
- 1499842 words of memory out of 5000000
- 49535 multiletter control sequences out of 15000+600000
- 419060 words of font info for 88 fonts, out of 8000000 for 9000
+ 32697 strings out of 478994
+ 758542 string characters out of 5858183
+ 1497874 words of memory out of 5000000
+ 49502 multiletter control sequences out of 15000+600000
+ 414721 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,17n,103p,766b,2356s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
@@ -1089,10 +1131,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf
 exmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/202
 1/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
 Output written on /Users/jh/Dropbox/Musique_sync/Theorie/JH_Methode_guitare/out
-/main.pdf (18 pages, 567564 bytes).
+/main.pdf (18 pages, 568035 bytes).
 PDF statistics:
- 343 PDF objects out of 1000 (max. 8388607)
- 278 compressed objects within 3 object streams
- 54 named destinations out of 1000 (max. 500000)
+ 345 PDF objects out of 1000 (max. 8388607)
+ 280 compressed objects within 3 object streams
+ 55 named destinations out of 1000 (max. 500000)
  207 words of extra memory for PDF output out of 10000 (max. 10000000)
 
