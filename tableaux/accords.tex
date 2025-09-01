@@ -1,40 +1,53 @@
+\usepackage{arydshln}
+
+
 \begin{table*}[!h]
 	\centering
 	\caption{Construction of chords (notation is relative to the major scale)}
-	\begin{tabular}{clcccccc}
+	\begin{tabular}{clccclcccl}
 		\hline \vspace{-0.2cm} \\
-		$\#$ notes & Chords & & & & & &\\
+		 & chord & symbol & & & & & & & name \\
 		\hline \vspace{-0.2cm} \\
-		\multirow{6}{*}{triad} & -        & 1 & M3 & 5 &  -  & -  & -\\
-		                       & m        & 1 & m3 & 5 &  -  & -  & -\\
-		                       & dim or $^\circ$  & 1 & m3 & b5  &  -  & -  & -\\
-		                       & aug or $^\#$5 & 1 & m3 & $^\#$5 &  -  & -  & -\\
-		                       & sus2     & 1 & M2  & 5     &  -  & -  & -\\
-		                       & sus4     & 1 & 4   & 5     &  -  & -  & -\\
+		\multirow{4}{*}{triad} &         & & 1 & M3 & 5           & & & & major\\
+		                       & m       & & 1 & m3 & 5           & & & & minor\\
+		                       & dim     & $^\circ$ & 1 & m3 & b5     & & & & diminished\\
+		                       & aug     & + & 1 & M3 & $^\#$5 & & & & augmented \\
+		\hline  \vspace{-0.2cm} \\
+		\multirow{4}{*}{ }    & sus2     & & 1 & M2  & 5   &   &   & & suspended 2nd \\
+		                       & sus4    & & 1 & 4   & 5   &   &   & & suspended 4th \\
+		\hline \vspace{-0.2cm} \\
+		\multirow{8}{*}{tetrad}& 7       &                   & 1 & M3  & 5 & m7                & & & dominant 7th \\
+		                       & maj7   & $\Delta$, M$7$  & 1 & M3  & 5 & M7  & & & major 7th\\
+		                       & m7     & $^{-}$7            & 1 & m3  & 5 & m7  & & & minor 7th\\
+		                       & m7b5   & $\varnothing$      & 1 & m3  & b5 & m7 & & & half-diminished \\
+		                       & dim7   & $^{\circ}$7        & 1 & m3  & b5 & b7  & & & fully-diminished\\
+        					   & mM7    & m$^\Delta$              & 1 & m3  & 5 & M7   & & & minor major 7th \\
+							   & maj7($\#$5) & $+^{\Delta}$    & 1 & M3  & $\#$5 & M7  & & & augmented major 7th \\
+		                       & 7($\#$5)    & $+^{7}$       & 1 & M3  & $\#$5 & m7  & & & augmented 7th \\
+		\hline \vspace{-0.2cm} \\
+							   & 6       & & 1 & M3  & 5 & M6   &   & \\
+                               & m6      & & 1 & m3  & 5 & M6   &   & \\
+							   & b6      & & 1 & M3  & 5 & m6   &   & \\
+                               & m(b6)     & & 1 & m3  & 5 & m6   &   & \\
+		                       & m6/9   & & 1 & m3  & 6 & M9  &   & \\
+		                       & 6/9    & & 1 & M3  & 6 & M9  &   & \\
+		                       & add9    & & 1 & M3  & 5 & M9  &   & \\
+		  					   & m(add9) & & 1 & m3  & 5 & M9  &   & \\
+		\hline  \vspace{-0.2cm} \\
+							   & 7sus4   & & 1 & 4   & 5 & m7  &  & \\
+		                       & add2    & & 1 & M2  & M3& 5   &  & \\
 		\hline
-		\multirow{13}{*}{tetrad}& 7        & 1 & M3  & 5 & m7  & -  & -\\
-		                       & $\Delta$  & 1 & M3  & 5 & M7  & -  & -\\
-		                       & m$^7$     & 1 & m3  & 5 & m7  & -  & -\\
-		                       & m$^\Delta$& 1 & m3  & 5 & M7  & -  & -\\
-		                       & m$^{7\textrm{b}5}$ or $\varnothing$& 1 & m3  & b5 & m7  & -  & -\\
-		                       & $^{\circ 7}$   & 1 & m3  & b5 & b7 & -  & -\\
-                               & 6        & 1 & M3  & 5 & 6   & -  & -\\
-                               & m6       & 1 & m3  & 5 & 6   & -  & -\\
-		                       & m6(9)    & 1 & m3  & 6 & M9  & -  & -\\
-		                       & 6(9)     & 1 & M3  & 6 & M9  & -  & -\\
-		                       & 7sus4    & 1 & 4   & 5 & m7  & -  & -\\
-		                       & add2     & 1 & M2  & M3& 5   & -  & -\\
-		                       & add9     & 1 & M3  & 5 & M9  & -  & -\\
+		\multirow{4}{*}{pentad}& 9     & & 1 & M3  & 5 & m7  & M9  & & Dominant 9th \\
+	                           & maj9  &$\Delta9$  & 1 & M3  & 5 & M7  & M9  & & major 9th \\
+		                       & 7b9 & & 1 & M3  & 5 & m7  & m9  &\\
+		                       & m9    & & 1 & m3  & 5 & m7  & M9  & & minor 9th \\
+							   & mM9    & & 1 & m3  & 5 & M7  & M9  & & minor major 9th\\
+		\hline  \vspace{-0.2cm} \\
+		                       & sus9  & & 1 & 4   & 5 & m7  & M9  & \\
+		                       & 11    & & 1 & 5   & m7& M9  & 11  & \\ % The 3 is omitted to avoid the dissonace between 3-11.
 		\hline
-		\multirow{6}{*}{pentad}& 7(b9)      & 1 & M3  & 5 & m7  & m9  & -\\
-	                           & $\Delta^9$ & 1 & M3  & 5 & M7  & M9  & -\\
-		                       & 9          & 1 & M3  & 5 & m7  & M9  & -\\
-		                       & m9         & 1 & m3  & 5 & m7  & M9  & -\\
-		                       & sus9       & 1 & 4   & 5 & m7  & M9  & -\\
-		                       & 11         & 1 & 5   & m7& M9  & 11  & -\\ % The 3 is omitted to avoid the dissonace between 3-11.
-		\hline
-		\multirow{2}{*}{hexad} & 7(13)      & 1 & M3  & 5 & m7  & M9  & M13\\ % the 11 is omited to avoid the dissonance between 3-11.
-		                       & 7(b9,13)   & 1 & M3  & 5 & m7  & m9  & M13\\
+		\multirow{2}{*}{hexad} & 7(13)     & & 1 & M3  & 5 & m7  & M9  & M13\\ % the 11 is omited to avoid the dissonance between 3-11.
+		                       & 7(b9,13)  & & 1 & M3  & 5 & m7  & m9  & M13\\
 		\hline \vspace{-0.2cm}
 	\end{tabular}
 	\label{tab: }
