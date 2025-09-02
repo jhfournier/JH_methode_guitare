@@ -45,7 +45,7 @@
     \centering
 	\vspace*{-3cm}
 	\hspace*{-5cm}
-    \includegraphics[width=22cm]{cover_picture/cover1.jpeg} % scale as needed
+    \includegraphics[width=22cm]{cover_picture/cover1_original.jpg} % scale as needed
     \vfill
 \end{titlepage}
 
@@ -151,7 +151,7 @@ Modes ranked by brightness: Super-locrian, locrian, phrygian, aeolian, dorian, m
 	\centering
 	\hspace*{-2cm}
 %	\includegraphics[scale=0.55, trim= {0cm 0cm 0cm 0cm}, clip]{gamme_majeure_manche/main.pdf}
-	\scalebox{0.5}{\input{figures/gamme_majeure_manche.tex}}
+	\scalebox{0.5}{\input{figures/gammes/gamme_majeure_manche.tex}}
 	\caption{G Major scale on the fretboard}
 	\label{fig:gamme_majeure_manche}
 \end{figure}
@@ -163,7 +163,7 @@ Modes ranked by brightness: Super-locrian, locrian, phrygian, aeolian, dorian, m
 	\centering
 	\hspace*{-2cm}
 %	\includegraphics[scale=0.55, trim= {0cm 0cm 0cm 0cm}, clip]{gamme_penta_manche/main.pdf}
-	\scalebox{0.5}{\input{figures/gamme_penta_manche.tex}}
+	\scalebox{0.5}{\input{figures/gammes/gamme_penta_manche.tex}}
 	\caption{Pattern of pentatonic scales}
 	\label{fig:gammme_penta_manche}
 \end{figure}
@@ -235,16 +235,17 @@ Modes ranked by brightness: Super-locrian, locrian, phrygian, aeolian, dorian, m
 \end{table*}
 
 % Figure
+% ref: https://www.jazzguitar.be/blog/blues-scales/
 \begin{figure}[h!]
 	\centering
 	\hspace*{-1cm}
-	\scalebox{0.7}{\input{figures/blues_penta_mineur.tex}}
+	\scalebox{0.7}{\input{figures/blues/blues_penta_mineur.tex}}
 %	\vspace{10cm}
 	\hspace*{-1cm}
-	\scalebox{0.7}{\input{figures/blues_penta_majeur.tex}}
+	\scalebox{0.7}{\input{figures/blues/blues_penta_majeur.tex}}
 	\hspace*{-1cm}
-	\scalebox{0.7}{\input{figures/blues_penta.tex}}
-	\caption{(a) Minor pentatonic scale with blue note (b5). (b) Major pentatonic scale. (c) Blues scale  }
+	\scalebox{0.7}{\input{figures/blues/blues_mix_maj_min}}
+	\caption{(a) Minor blues scale with blue note (b5). (b) Major blues pentatonic scale. (c) Blues scale  }
 	\label{fig:blues_penta_mineur}
 \end{figure}
 
@@ -392,7 +393,7 @@ Concepts:
 	\hspace*{-0cm}
 	\scalebox{0.52}{\input{figures/arpeges/m7/m7_pos5.tex}}
 
-	\caption{(left) dom7 arpeggio. (right) m7 arpeggio}
+	\caption{(left) dom7 arpeggio (EDCAG). (right) m7 arpeggio}
 	\label{fig:arpeggio}
 \end{table}
 
@@ -424,7 +425,7 @@ Concepts:
 	\hspace*{-0cm}
 	\scalebox{0.52}{\input{figures/arpeges/m7b5/m7b5_pos5.tex}}
 
-	\caption{(left) maj7 arpeggio. (right) m7b5 arpeggio}
+	\caption{(left) maj7 arpeggio (EDCAG). (right) m7b5 arpeggio}
 	\label{fig:arpeggio}
 \end{table}
 
@@ -454,8 +455,9 @@ https://www.youtube.com/watch?v=Vxac3hHrxg8
 	\item Voice leading
 \end{itemize}
 
-%\newpage
-%\bibliographystyle{plain}
-%\bibliography{/home/jh/Documents/library.bib}
+\newpage
+\nocite{Lizzio2023}
+\bibliographystyle{plain}
+\bibliography{library.bib}
 
 \end{document}
