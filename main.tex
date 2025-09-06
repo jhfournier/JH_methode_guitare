@@ -50,20 +50,6 @@
 \end{titlepage}
 
 
-
-% Plan:
-%
-% 1. Intervals (Why intervals are consonant or dissonant?, Harmonic series, harmonic entropy, battement)
-%      1.1 Harmonic series
-%      1.2 Consonance and dissonance
-% 2. Scales    (Major scale, minor scales, pattern on fretboard)
-% 3. Chords    (Triad, tetrad, pentad)
-%  3.1 Chord progressions (Circle of fifths)
-% 4. Modes     (Table of modes)
-% 5. Arpeggios
-
-
-
 %***********************************************************************************************************************************************
 \begin{document}
 
@@ -77,9 +63,9 @@
 	\item If you give a man a fish, you feed him for a day. If you teach a man to fish, you feed him for a lifetime
 \end{itemize}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Intervals: where do notes come from?}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %Names of the interval comes from the diatonic scale. In C major scale (C-D-E-F-G-A-B-C) that scale G$\#$ is the augmented 5. In C minor scale (C-D-Eb-F-G-Ab-Bb) G$\#$ is the minor sixth.
 
@@ -89,18 +75,18 @@
 \begin{figure}[h!]
 	\centering
 %	\hspace*{0cm}
-	\scalebox{1}{\input{figures/serie_harmonique.tex}}
+	\scalebox{1}{\input{figures/1.intervalles/serie_harmonique.tex}}
 	\caption{The harmonic series}
 	\label{fig:serie_harmonique}
 \end{figure}
 
 % Table
-\input{tableaux/harmoniques}
+\input{figures/1.intervalles/table-harmoniques}
 
 
  Table
  Source: https://hellomusictheory.com/learn/intervals/
-\input{tableaux/interval}
+\input{figures/1.intervalles//table-interval}
 
 
 % ****************************************************************************
@@ -110,30 +96,29 @@
 \begin{figure}[h!]
 	\centering
 	\hspace*{0cm}
-	\includegraphics[scale=0.03, trim= {0cm 0cm 0cm 0cm}, clip]{Harmonic_entropy.png}
+	\includegraphics[scale=0.03, trim= {0cm 0cm 0cm 0cm}, clip]{figures/1.intervalles/Harmonic_entropy.png}
 	\caption{Harmonic entropy}
-	\label{fig}
+	\label{fig:harmonic_entro}
 \end{figure}
 
 % Figure
 \begin{figure}[h!]
 	\centering
 	\hspace*{0cm}
-	\includegraphics[scale=0.5, trim= {0cm 0cm 0cm 0cm}, clip]{battement/main.pdf}
+	\includegraphics[scale=0.5, trim= {0cm 0cm 0cm 0cm}, clip]{figures/1.intervals/battement/main.pdf}
 %	\scalebox{0.3}{\input{figures/battement/main.tex}}
 	\caption{Beat tone}
-	\label{fig}
+	\label{fig:battement}
 \end{figure}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Interval of notes create scales
 \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Interval of notes create scales
 \section{Scales}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Table
-\input{tableaux/gammes.tex}
+\input{figures/2.gammes/table-gammes.tex}
 
 \newpage
 \subsection{Major scale}
@@ -151,19 +136,20 @@ Modes ranked by brightness: Super-locrian, locrian, phrygian, aeolian, dorian, m
 	\centering
 	\hspace*{-2cm}
 %	\includegraphics[scale=0.55, trim= {0cm 0cm 0cm 0cm}, clip]{gamme_majeure_manche/main.pdf}
-	\scalebox{0.5}{\input{figures/gammes/gamme_majeure_manche.tex}}
+	\scalebox{0.5}{\input{figures/2.gammes/gamme_majeure_manche.tex}}
 	\caption{G Major scale on the fretboard}
 	\label{fig:gamme_majeure_manche}
 \end{figure}
 
 \newpage
 \subsection{Pentatonic scale}
+
 % Figure
 \begin{figure}[h!]
 	\centering
 	\hspace*{-2cm}
 %	\includegraphics[scale=0.55, trim= {0cm 0cm 0cm 0cm}, clip]{gamme_penta_manche/main.pdf}
-	\scalebox{0.5}{\input{figures/gammes/gamme_penta_manche.tex}}
+	\scalebox{0.5}{\input{figures/2.gammes/gamme_penta_manche.tex}}
 	\caption{Pattern of pentatonic scales}
 	\label{fig:gammme_penta_manche}
 \end{figure}
@@ -239,12 +225,12 @@ Modes ranked by brightness: Super-locrian, locrian, phrygian, aeolian, dorian, m
 \begin{figure}[h!]
 	\centering
 	\hspace*{-1cm}
-	\scalebox{0.7}{\input{figures/blues/blues_penta_mineur.tex}}
+	\scalebox{0.7}{\input{figures/2.gammes/blues_penta_mineur.tex}}
 %	\vspace{10cm}
 	\hspace*{-1cm}
-	\scalebox{0.7}{\input{figures/blues/blues_penta_majeur.tex}}
+	\scalebox{0.7}{\input{figures/2.gammes/blues_penta_majeur.tex}}
 	\hspace*{-1cm}
-	\scalebox{0.7}{\input{figures/blues/blues_mix_maj_min}}
+	\scalebox{0.7}{\input{figures/2.gammes/blues_mix_maj_min}}
 	\caption{(a) Minor blues scale with blue note (b5). (b) Major blues pentatonic scale. (c) Blues scale  }
 	\label{fig:blues_penta_mineur}
 \end{figure}
@@ -275,24 +261,22 @@ Modes ranked by brightness: Super-locrian, locrian, phrygian, aeolian, dorian, m
 % Source: 1997 - Vaillot Méthode Jazz
 % Tetrad: https://www.beyondmusictheory.org/chord-formations-triads-and-tetrads/
 % Nom de acccords Jake lizzio
-\input{tableaux/accords.tex}
+\input{figures/3.accords/table-accords.tex}
 
 - Accords: 7, m7, maj7, m7b5 (root sur corde E, A, D)
 
-\newpage
-\subsection{Harmonizing the major scale}
-% Table
-\input{tableaux/gammes_harmonisee.tex}
-
-% Table
-\input{tableaux/modes.tex}
 
 \newpage
-\subsection{Chord progression and example}
+\subsection{Diatonic chords}
+% Table
+\input{figures/3.accords/table-diatonic_chords}
 
 % Table
-% Source: 1997 - Vaillot Méthode Jazz
-\input{tableaux/Progression_accord.tex}
+\input{figures/3.accords/table-modes.tex}
+
+\subsection{Extended chords}
+
+https://music.stackexchange.com/questions/108060/extended-chord-types-for-all-major-scale-degrees
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
@@ -304,30 +288,94 @@ Modes ranked by brightness: Super-locrian, locrian, phrygian, aeolian, dorian, m
 \begin{figure}[h!]
 	\centering
 	\hspace*{-2.2cm}
-	\includegraphics[scale=0.7, trim= {0cm 0cm 0cm 0cm}, clip]{figures/chord-inversions/maj7.pdf}
+	\includegraphics[scale=0.7, trim= {0cm 0cm 0cm 0cm}, clip]{figures/3.accords/chord-inversions/maj7.tex}
 	\hspace*{-2.2cm}
-	\includegraphics[scale=0.7, trim= {0cm 0cm 0cm 0cm}, clip]{figures/chord-inversions/Dominant7.pdf}
+	\includegraphics[scale=0.7, trim= {0cm 0cm 0cm 0cm}, clip]{figures/3.accords/chord-inversions/Dom7.tex}
 	\hspace*{-2.2cm}
-	\includegraphics[scale=0.7, trim= {0cm 0cm 0cm 0cm}, clip]{figures/chord-inversions/m7.pdf}
-	\caption{(a) maj7 chords. (b) Dominnt 7 chords. (c) m7 chords  }
+	\includegraphics[scale=0.7, trim= {0cm 0cm 0cm 0cm}, clip]{figures/3.accords/chord-inversions/m7.tex}
+	\caption{Chord inversion on the D string. (a) maj7 chords. (b) Dominnt 7 chords. (c) m7 chords  }
 	\label{fig}
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\section{Harmony}
+\subsection{Chord progression and example}
 
+% Table
+% Source: 1997 - Vaillot Méthode Jazz
+\input{figures/4.harmonie/Progression_accord.tex}
+
+\subsection{Chord substitution}
+
+\subsubsection{Tritone substitution}
+\begin{table*}[!h]
+	\caption{Tritone substitution: Substitute V7 chord by a 7 chord a tritone above tonic.}
+	\centering
+	\begin{tabular}{| c | c | c | c |}
+		%\vspace{0pt}
+		\hline
+		\phantom{x}ii$^7$\phantom{x} & \phantom{x}V$^7$\phantom{x} & \phantom{x}I$^{\Delta 7}$\phantom{x}  & \phantom{x}$\%$\phantom{x} \\
+		\hline
+		\phantom{x}ii$^7$\phantom{x} & \phantom{x}bII$^7$\phantom{x} & \phantom{x}I$^{\Delta 7}$\phantom{x}  & \phantom{x}$\%$\phantom{x} \\
+		\hline
+	\end{tabular}
+	\label{tab:tritone-subs }
+\end{table*}
+
+\subsubsection{Backdoor II-V}
+\begin{table*}[!h]
+	\caption{Backdoor II-V: modal interchage}
+	\centering
+	\begin{tabular}{| c | c | c | c |}
+		%\vspace{0pt}
+		\hline
+		\phantom{x}ii$^7$\phantom{x} & \phantom{x}V$^7$\phantom{x} & \phantom{x}I$^{\Delta 7}$\phantom{x}  & \phantom{x}$\%$\phantom{x} \\
+		\hline
+		\phantom{x}iv$^7$\phantom{x} & \phantom{x}bVII$^7$\phantom{x} & \phantom{x}I$^{\Delta 7}$\phantom{x}  & \phantom{x}$\%$\phantom{x} \\
+		\hline
+	\end{tabular}
+	\label{tab: }
+\end{table*}
+
+\subsubsection{Secondary dominant}
+\begin{table*}[!h]
+	\caption{Secondary dominant}
+	\centering
+	\begin{tabular}{| c | c | c | c |}
+		%\vspace{0pt}
+		\hline
+		 \phantom{x}$\%$\phantom{x} & \phantom{x}ii$^7$\phantom{x} & \phantom{x}V$^7$\phantom{x} & \phantom{x}I$^{\Delta 7}$\phantom{x}   \\
+		\hline
+		\phantom{x}VI$^7$\phantom{x} & \phantom{x}ii$^7$\phantom{x} &  \phantom{x}V$^{7}$\phantom{x}  & \phantom{x}I$^{\Delta 7}$\phantom{x} \\
+		\hline
+	\end{tabular}
+	\label{tab: }
+\end{table*}
+
+\subsubsection{Dominant to diminished 7}
+\begin{table*}[!h]
+	\caption{Dominant to diminished 7: Replace dominant chord by a diminishe 7 chord half step above the root}
+	\centering
+	\begin{tabular}{| c | c | c | c |}
+		%\vspace{0pt}
+		\hline
+		\phantom{x}ii$^7$\phantom{x} & \phantom{x}V$^7$\phantom{x} & \phantom{x}I$^{\Delta 7}$\phantom{x}  & \phantom{x}$\%$\phantom{x} \\
+		\hline
+		\phantom{x}ii$^7$\phantom{x} & \phantom{x}bVI$^\circ$\phantom{x} & \phantom{x}I$^{\Delta 7}$\phantom{x}  & \phantom{x}$\%$\phantom{x} \\
+		\hline
+	\end{tabular}
+	\label{tab:tritone-subs }
+\end{table*}
 
 Concepts:
 \begin{itemize}
 	\item Borrowed chord: chord that is not built from the scale of the tonic. Examples:
 	\begin{itemize}
 		\item ``Picardy third'': a progression with an ending major triad instead of an expected minor triad to create an impression of resolution.
-		\item Use the bVII
 	\end{itemize}
 	\item Transistion Chords:
 	\begin{itemize}
-		\item Secondary dominant chord (tonicization) (V/x): using the fifth of a chord (even if it's not a diatonic chord) in order to feel a ``resolution'' on this chord.
-		\item Tritone substitution (Vsub/x or bV7/V): Approach any target chord with a diminished 7 chord a semitone above.
-		\item Backdoor [ii V]. Approach the tonic with iv7 - bVII7 - I.
 		\item Modulation (Rick Beato):
 		\begin{itemize}
 			\item Diatonic common chord (``close'' keys have many chords in common that can be used to modulate from a key to another. Common chords are called pivot chords)
@@ -350,7 +398,7 @@ Concepts:
 \begin{figure}[h!]
 	\centering
 	\hspace*{-1cm}
-	\includegraphics[scale=0.3, trim= {0cm 0cm 0cm 0cm}, clip]{Circle_5th.png}
+	\includegraphics[scale=0.3, trim= {0cm 0cm 0cm 0cm}, clip]{figures/4.harmonie/Circle_5th.png}
 	\caption{ }
 	\label{fig}
 \end{figure}
@@ -369,64 +417,64 @@ Concepts:
 % Figure
 \begin{table}[!h]
 	\hspace*{-4.2cm}
-	\scalebox{0.52}{\input{figures/arpeges/dom7/dom7_pos1.tex}}
+	\scalebox{0.52}{\input{figures/5.arpeges/dom7/dom7_pos1.tex}}
 	\hspace*{-0cm}
-	\scalebox{0.52}{\input{figures/arpeges/m7/m7_pos1.tex}}
+	\scalebox{0.52}{\input{figures/5.arpeges/m7/m7_pos1.tex}}
 
 	\hspace*{-4.2cm}
-	\scalebox{0.52}{\input{figures/arpeges/dom7/dom7_pos2.tex}}
+	\scalebox{0.52}{\input{figures/5.arpeges/dom7/dom7_pos2.tex}}
 	\hspace*{-0cm}
-	\scalebox{0.52}{\input{figures/arpeges/m7/m7_pos2.tex}}
+	\scalebox{0.52}{\input{figures/5.arpeges/m7/m7_pos2.tex}}
 
 	\hspace*{-4.2cm}
-	\scalebox{0.52}{\input{figures/arpeges/dom7/dom7_pos3.tex}}
+	\scalebox{0.52}{\input{figures/5.arpeges/dom7/dom7_pos3.tex}}
 	\hspace*{-0cm}
-	\scalebox{0.52}{\input{figures/arpeges/m7/m7_pos3.tex}}
+	\scalebox{0.52}{\input{figures/5.arpeges/m7/m7_pos3.tex}}
 
 	\hspace*{-4.2cm}
-	\scalebox{0.52}{\input{figures/arpeges/dom7/dom7_pos4.tex}}
+	\scalebox{0.52}{\input{figures/5.arpeges/dom7/dom7_pos4.tex}}
 	\hspace*{-0cm}
-	\scalebox{0.52}{\input{figures/arpeges/m7/m7_pos4.tex}}
+	\scalebox{0.52}{\input{figures/5.arpeges/m7/m7_pos4.tex}}
 
 	\hspace*{-4.2cm}
-	\scalebox{0.52}{\input{figures/arpeges/dom7/dom7_pos5.tex}}
+	\scalebox{0.52}{\input{figures/5.arpeges/dom7/dom7_pos5.tex}}
 	\hspace*{-0cm}
-	\scalebox{0.52}{\input{figures/arpeges/m7/m7_pos5.tex}}
+	\scalebox{0.52}{\input{figures/5.arpeges/m7/m7_pos5.tex}}
 
-	\caption{(left) dom7 arpeggio (EDCAG). (right) m7 arpeggio}
-	\label{fig:arpeggio}
+	\caption{(left) dom7 arpeggio. (right) m7 arpeggio. E-shape position, D-shape position, C-shape position, A-shape position, G-shape position (CAGED system)}
+	\label{fig:arpeggio1}
 \end{table}
 
 
 % Figure
 \begin{table}[!h]
 	\hspace*{-4.2cm}
-	\scalebox{0.52}{\input{figures/arpeges/maj7/maj7_pos1.tex}}
+	\scalebox{0.52}{\input{figures/5.arpeges/maj7/maj7_pos1.tex}}
 	\hspace*{-0cm}
-	\scalebox{0.52}{\input{figures/arpeges/m7b5/m7b5_pos1.tex}}
+	\scalebox{0.52}{\input{figures/5.arpeges/m7b5/m7b5_pos1.tex}}
 
 	\hspace*{-4.2cm}
-	\scalebox{0.52}{\input{figures/arpeges/maj7/maj7_pos2.tex}}
+	\scalebox{0.52}{\input{figures/5.arpeges/maj7/maj7_pos2.tex}}
 	\hspace*{-0cm}
-	\scalebox{0.52}{\input{figures/arpeges/m7b5/m7b5_pos2.tex}}
+	\scalebox{0.52}{\input{figures/5.arpeges/m7b5/m7b5_pos2.tex}}
 
 	\hspace*{-4.2cm}
-	\scalebox{0.52}{\input{figures/arpeges/maj7/maj7_pos3.tex}}
+	\scalebox{0.52}{\input{figures/5.arpeges/maj7/maj7_pos3.tex}}
 	\hspace*{-0cm}
-	\scalebox{0.52}{\input{figures/arpeges/m7b5/m7b5_pos3.tex}}
+	\scalebox{0.52}{\input{figures/5.arpeges/m7b5/m7b5_pos3.tex}}
 
 	\hspace*{-4.2cm}
-	\scalebox{0.52}{\input{figures/arpeges/maj7/maj7_pos4.tex}}
+	\scalebox{0.52}{\input{figures/5.arpeges/maj7/maj7_pos4.tex}}
 	\hspace*{-0cm}
-	\scalebox{0.52}{\input{figures/arpeges/m7b5/m7b5_pos4.tex}}
+	\scalebox{0.52}{\input{figures/5.arpeges/m7b5/m7b5_pos4.tex}}
 
 	\hspace*{-4.2cm}
-	\scalebox{0.52}{\input{figures/arpeges/maj7/maj7_pos5.tex}}
+	\scalebox{0.52}{\input{figures/5.arpeges/maj7/maj7_pos5.tex}}
 	\hspace*{-0cm}
-	\scalebox{0.52}{\input{figures/arpeges/m7b5/m7b5_pos5.tex}}
+	\scalebox{0.52}{\input{figures/5.arpeges/m7b5/m7b5_pos5.tex}}
 
 	\caption{(left) maj7 arpeggio (EDCAG). (right) m7b5 arpeggio}
-	\label{fig:arpeggio}
+	\label{fig:arpeggio2}
 \end{table}
 
 

@@ -7,10 +7,17 @@
 \contentsline {subsection}{\numberline {2.3}Blues}{8}{subsection.2.3}%
 \contentsline {section}{\numberline {3}Chords}{9}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Formation of chords}{10}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Harmonizing the major scale}{11}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Chord progression and example}{12}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Chord inversions}{13}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Arpeggios}{15}{section.4}%
-\contentsline {section}{\numberline {5}Modes}{16}{section.5}%
-\contentsline {section}{\numberline {6}Transposition}{17}{section.6}%
-\contentsline {section}{\numberline {7}Composition variation (Shred Master Scott)}{18}{section.7}%
+\contentsline {subsection}{\numberline {3.2}Diatonic chords}{11}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Extended chords}{11}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Chord inversions}{12}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Harmony}{13}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Chord progression and example}{13}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Chord substitution}{13}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Tritone substitution}{13}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Backdoor II-V}{13}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Secondary dominant}{13}{subsubsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.4}Dominant to diminished 7}{14}{subsubsection.4.2.4}%
+\contentsline {section}{\numberline {5}Arpeggios}{16}{section.5}%
+\contentsline {section}{\numberline {6}Modes}{17}{section.6}%
+\contentsline {section}{\numberline {7}Transposition}{18}{section.7}%
+\contentsline {section}{\numberline {8}Composition variation (Shred Master Scott)}{19}{section.8}%
