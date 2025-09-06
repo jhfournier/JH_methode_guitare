@@ -55,20 +55,48 @@
 	%\fill[black!50!white] (18.5*\fret,2.5*\h) circle (\dot_size); % fret 19
 
 	
-	% Arpege
-	\node[dot=\circ_size, fill=red!80!black,draw] at (14.5*\fret,0*\h) {{\large \textbf{R}}};
-	\node[dot=\circ_size, fill=yellow!80!black,draw] at (13.5*\fret,0*\h) {{\large 7}};
-	\node[dot=\circ_size, fill=yellow!80!black,draw] at (13.5*\fret,1*\h) {{\large 3}};
-	\node[dot=\circ_size, fill=yellow!80!black,draw] at (11.5*\fret,2*\h) {{\large 5}};
-	\node[dot=\circ_size, fill=red!80!black,draw] at (11.5*\fret,3*\h) {{\large \textbf{R}}};
-	\node[dot=\circ_size, fill=yellow!80!black,draw] at (10.5*\fret,3*\h) {{\large 7}};
-	\node[dot=\circ_size, fill=yellow!80!black,draw] at (11.5*\fret,4*\h) {{\large 3}};
-	\node[dot=\circ_size, fill=yellow!80!black,draw] at (14.5*\fret,4*\h) {{\large 5}};
-	\node[dot=\circ_size, fill=yellow!80!black,draw] at (13.5*\fret,5*\h) {{\large 7}};
-	\node[dot=\circ_size, fill=red!80!black,draw] at (14.5*\fret,5*\h) {{\large \textbf{R}}};
+	% 3nd inversion position
+	\node[dot=\circ_size, fill=yellow!50!red,draw] at (2.5*\fret,5*\h) {{\large R}};
+	\node[dot=\circ_size, fill=yellow!50!red,draw] at (1.5*\fret,4*\h) {{\large 5}};
+	\node[dot=\circ_size, fill=yellow!50!red,draw] at (2.5*\fret,3*\h) {{\large 3}};
+	\node[dot=\circ_size, fill=yellow!50!red,draw] at (2.5*\fret,2*\h) {{\large 7}};
+	
+	
+	% Root position
+	\node[dot=\circ_size, fill=white,draw] at (5.5*\fret,5*\h) {{\large 3}};
+	\node[dot=\circ_size, fill=white,draw] at (5.5*\fret,4*\h) {{\large 7}};
+	\node[dot=\circ_size, fill=white,draw] at (5.5*\fret,3*\h) {{\large 5}};
+	\node[dot=\circ_size, fill=white,draw] at (4.5*\fret,2*\h) {{\large R}};
+	
+	% 1st inversion position
+	\node[dot=\circ_size, fill=yellow,draw] at (8.5*\fret,5*\h) {{\large 5}};
+	\node[dot=\circ_size, fill=yellow,draw] at (7.5*\fret,4*\h) {{\large R}};
+	\node[dot=\circ_size, fill=yellow,draw] at (9.5*\fret,3*\h) {{\large 7}};
+	\node[dot=\circ_size, fill=yellow,draw] at (7.5*\fret,2*\h) {{\large 3}};
+	
+	% 2nd inversion position
+	\node[dot=\circ_size, fill=yellow!50!red!30!white,draw] at (12.5*\fret,5*\h) {{\large 7}};
+	\node[dot=\circ_size, fill=yellow!50!red!30!white,draw] at (10.5*\fret,4*\h) {{\large 3}};
+	\node[dot=\circ_size, fill=yellow!50!red!30!white,draw] at (11.5*\fret,3*\h) {{\large R}};
+	\node[dot=\circ_size, fill=yellow!50!red!30!white,draw] at (10.5*\fret,2*\h) {{\large 5}};
+	
+	% 3nd inversion position
+	\node[dot=\circ_size, fill=yellow!50!red,draw] at (14.5*\fret,5*\h) {{\large R}};
+	\node[dot=\circ_size, fill=yellow!50!red,draw] at (13.5*\fret,4*\h) {{\large 5}};
+	\node[dot=\circ_size, fill=yellow!50!red,draw] at (14.5*\fret,3*\h) {{\large 3}};
+	\node[dot=\circ_size, fill=yellow!50!red,draw] at (14.5*\fret,2*\h) {{\large 7}};
+	
+	% Anotation (positions)
+%	\draw[black,anchor=center, text width=3.5cm, align=center] (5,-1) node { {\Large \phantom{\textbf{E pos.}} }};
+%	\draw[black,anchor=center, text width=3.5cm, align=center] (9.5,-1) node { {\Large \phantom{ \textbf{D-C pos.} }}};
+%	\draw[black,anchor=center, text width=3.5cm, align=center] (14,-1) node { {\Large \phantom{\textbf{A pos.} }}};
 
-
+	
+	% Annotation
+	\draw[black,anchor=west] (-3cm,2cm) node { {\Huge \phantom{$\Delta$7 }} };
+	
 \end{tikzpicture}
+%\end{document}
 
 
 
