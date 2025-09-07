@@ -24,6 +24,8 @@
 \usepackage{pgfplots} % Include package for TikZ and PGF plot
 \usepackage{anyfontsize} % enable to change the font size manually
 \usepackage{makecell}%
+\usepackage{color}
+\usepackage{xcolor}
 \usetikzlibrary{shapes.geometric}
 \tikzset{
   dot/.style = {circle, fill, minimum size=#1,
@@ -130,14 +132,18 @@
 	\centering
 	\hspace*{-2cm}
 %	\includegraphics[scale=0.55, trim= {0cm 0cm 0cm 0cm}, clip]{gamme_majeure_manche/main.pdf}
-	\scalebox{0.5}{\input{figures/2.gammes/gamme_majeure_manche.tex}}
+%	\scalebox{0.5}{\input{figures/2.gammes/gamme_majeure_manche.tex}}
+%	\hspace*{-2cm}
+	\scalebox{0.5}{\input{figures/2.gammes/gamme_majeure/pos1.tex}}
 	\hspace*{-2cm}
-	\scalebox{0.5}{\input{figures/2.gammes/gamme_majeure_manche_ionian.tex}}
+	\scalebox{0.5}{\input{figures/2.gammes/gamme_majeure/pos2.tex}}
 	\hspace*{-2cm}
-	\scalebox{0.5}{\input{figures/2.gammes/gamme_majeure_manche_dorian.tex}}
+	\scalebox{0.5}{\input{figures/2.gammes/gamme_majeure/pos3.tex}}
 	\hspace*{-2cm}
-	\scalebox{0.5}{\input{figures/2.gammes/gamme_majeure_manche_phrygian.tex}}
-	\caption{G Major scale on the fretboard}
+	\scalebox{0.5}{\input{figures/2.gammes/gamme_majeure/pos4.tex}}
+	\hspace*{-2cm}
+	\scalebox{0.5}{\input{figures/2.gammes/gamme_majeure/pos5.tex}}
+	\caption{G Major scale on the fretboard position 1, 2, 3, 4 and 5.}
 	\label{fig:gamme_majeure_manche}
 \end{figure}
 
