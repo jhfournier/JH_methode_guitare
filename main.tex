@@ -123,14 +123,7 @@
 
 \newpage
 \subsection{Major scale}
-Modes ranked by brightness: Super-locrian, locrian, phrygian, aeolian, dorian, mixolydian, major, lydian, lydian augmented
 
-\begin{itemize}
-	\item Major scales and the modes (and all modes)
-	\item Pentatonic scale (Major, Egyptian, Man Gong, Ritusen)
-	\item Minor scale (natural, harmonic, melodic)
-	\item Phrygian dominant (hijaz) (I-bII-iiidim-iv-vdim-bVI+-bvii)  Ex: Come out and Play The Offsprings
-\end{itemize}
 
 % Figure
 \begin{figure}[h!]
@@ -138,6 +131,12 @@ Modes ranked by brightness: Super-locrian, locrian, phrygian, aeolian, dorian, m
 	\hspace*{-2cm}
 %	\includegraphics[scale=0.55, trim= {0cm 0cm 0cm 0cm}, clip]{gamme_majeure_manche/main.pdf}
 	\scalebox{0.5}{\input{figures/2.gammes/gamme_majeure_manche.tex}}
+	\hspace*{-2cm}
+	\scalebox{0.5}{\input{figures/2.gammes/gamme_majeure_manche_ionian.tex}}
+	\hspace*{-2cm}
+	\scalebox{0.5}{\input{figures/2.gammes/gamme_majeure_manche_dorian.tex}}
+	\hspace*{-2cm}
+	\scalebox{0.5}{\input{figures/2.gammes/gamme_majeure_manche_phrygian.tex}}
 	\caption{G Major scale on the fretboard}
 	\label{fig:gamme_majeure_manche}
 \end{figure}
@@ -155,86 +154,6 @@ Modes ranked by brightness: Super-locrian, locrian, phrygian, aeolian, dorian, m
 	\label{fig:gammme_penta_manche}
 \end{figure}
 
-\newpage
-\subsection{Blues}
-
-
-% Table
-\begin{table*}[!h]
-	\caption{Blues scales (relative to the major scale)}
-	\centering
-	%\begin{adjustwidth}{0cm}{}
-	\begin{tabular}{l|cccccccc}
-		Scale name  & \multicolumn{8}{c}{Formula} \\
-		\hline \hline \vspace{-0.4cm} \\
-		Blues Major   & 1 & 2  & \textcolor{red}{b3} & 3  &   -   & 5  & 6  &  -  \\
-		Blues minor   & 1 &  - & b3 & 4  & \textcolor{red}{b5} &  5  & - &  b7 \\
-	\end{tabular}
-	\label{tab: }
-	%\end{adjustwidth}
-\end{table*}
-
-% Table
-% % Jake Lizzio
-\begin{table*}[!h]
-	\caption{Basic 12 bar major blues}
-	\centering
-	\begin{tabular}{| c | c | c | c |}
-		\hline
-		\phantom{x}I7\phantom{x} & \phantom{x}I7\phantom{x} & \phantom{x}I7\phantom{x} & \phantom{x}I7\phantom{x}  \\
-		\hline
-		\phantom{x}IV7\phantom{x} & \phantom{x}IV7\phantom{x} & \phantom{x}I7\phantom{x} & \phantom{x}I7\phantom{x}  \\
-		\hline
-		\phantom{x}V7\phantom{x} & \phantom{x}IV7\phantom{x} & \phantom{x}I7\phantom{x} & \phantom{x}I7\phantom{x}  \\
-		\hline
-	\end{tabular}
-	\label{tab: }
-\end{table*}
-
-\begin{table*}[!h]
-	\caption{Basic 12 bar minor blues}
-	\centering
-	\begin{tabular}{| c | c | c | c |}
-		\hline
-		\phantom{x}i7\phantom{x} & \phantom{x}i7\phantom{x} & \phantom{x}i7\phantom{x} & \phantom{x}i7\phantom{x}  \\
-		\hline
-		\phantom{x}iv7\phantom{x} & \phantom{x}iv7\phantom{x} & \phantom{x}i7\phantom{x} & \phantom{x}i7\phantom{x}  \\
-		\hline
-		\phantom{x}v7 or V7\phantom{x} & \phantom{x}iv7\phantom{x} & \phantom{x}i7\phantom{x} & \phantom{x}V7\phantom{x}  \\
-		\hline
-	\end{tabular}
-	\label{tab: }
-\end{table*}
-
-\begin{table*}[!h]
-	\caption{Basic 12 bar major blues with a \textit{quick change} and \textit{turnaroun}d}
-	\centering
-	\begin{tabular}{| c | c | c | c |}
-		\hline
-		\phantom{x}I7\phantom{x} & \phantom{x}\textbf{IV7}\phantom{x} & \phantom{x}I7\phantom{x} & \phantom{x}I7\phantom{x}  \\
-		\hline
-		\phantom{x}IV7\phantom{x} & \phantom{x}IV7\phantom{x} & \phantom{x}I7\phantom{x} & \phantom{x}I7\phantom{x}  \\
-		\hline
-		\phantom{x}V7\phantom{x} & \phantom{x}IV7\phantom{x} & \phantom{x}I7 - \textbf{vi7} & \textbf{ii7} - V7\phantom{x}  \\
-		\hline
-	\end{tabular}
-	\label{tab: }
-\end{table*}
-
-% Figure
-% ref: https://www.jazzguitar.be/blog/blues-scales/
-\begin{figure}[h!]
-	\centering
-	\hspace*{-1cm}
-	\scalebox{0.7}{\input{figures/2.gammes/blues_penta_mineur.tex}}
-%	\vspace{10cm}
-	\hspace*{-1cm}
-	\scalebox{0.7}{\input{figures/2.gammes/blues_penta_majeur.tex}}
-	\hspace*{-1cm}
-	\scalebox{0.7}{\input{figures/2.gammes/blues_mix_maj_min}}
-	\caption{(a) Minor blues scale with blue note (b5). (b) Major blues pentatonic scale. (c) Blues scale  }
-	\label{fig:blues_penta_mineur}
-\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Construction of chords superimposing 3rds on a scale
@@ -283,8 +202,6 @@ https://music.stackexchange.com/questions/108060/extended-chord-types-for-all-ma
 \newpage
 \subsection{Chord inversions}
 
-- Accords: 7, m7, maj7, m7b5 (root: E, A, D)
-
 % Figure
 \begin{figure}[h!]
 	\centering
@@ -297,6 +214,20 @@ https://music.stackexchange.com/questions/108060/extended-chord-types-for-all-ma
 	\hspace*{-2.2cm}
 	\scalebox{0.7}{\input{figures/3.accords/chord-inversions/m7b5.tex}}
 	\caption{Chord inversion on the D string. (a) maj7 chords. (b) Dominnt 7 chords. (c) m7 chords. (d) m7b5 chords }
+	\label{fig}
+\end{figure}
+
+% Figure
+\begin{figure}[h!]
+	\centering
+	\caption{Chord inversion on the A string. (a) maj7 chords. (b) Dominnt 7 chords. (c) m7 chords. (d) m7b5 chords }
+	\label{fig}
+\end{figure}
+
+% Figure
+\begin{figure}[h!]
+	\centering
+	\caption{Chord inversion on the E string. (a) maj7 chords. (b) Dominnt 7 chords. (c) m7 chords. (d) m7b5 chords }
 	\label{fig}
 \end{figure}
 
@@ -418,7 +349,7 @@ Concepts:
 
 
 % Figure
-\begin{table}[!h]
+\begin{figure}[!h]
 	\hspace*{-4.2cm}
 	\scalebox{0.52}{\input{figures/5.arpeges/dom7/dom7_pos1.tex}}
 	\hspace*{-0cm}
@@ -446,11 +377,11 @@ Concepts:
 
 	\caption{(left) dom7 arpeggio. (right) m7 arpeggio. E-shape position, D-shape position, C-shape position, A-shape position, G-shape position (CAGED system)}
 	\label{fig:arpeggio1}
-\end{table}
+\end{figure}
 
 
 % Figure
-\begin{table}[!h]
+\begin{figure}[!h]
 	\hspace*{-4.2cm}
 	\scalebox{0.52}{\input{figures/5.arpeges/maj7/maj7_pos1.tex}}
 	\hspace*{-0cm}
@@ -478,7 +409,70 @@ Concepts:
 
 	\caption{(left) maj7 arpeggio (EDCAG). (right) m7b5 arpeggio}
 	\label{fig:arpeggio2}
-\end{table}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\section{Blues}
+
+\subsection{Blues scales}
+
+% Table
+\begin{table*}[!h]
+	\caption{Blues scales (relative to the major scale)}
+	\centering
+	%\begin{adjustwidth}{0cm}{}
+	\begin{tabular}{l|cccccccc}
+		Scale name  & \multicolumn{8}{c}{Formula} \\
+		\hline \hline \vspace{-0.4cm} \\
+		Blues Major   & 1 & 2  & \textcolor{red}{b3} & 3  &   -   & 5  & 6  &  -  \\
+		Blues minor   & 1 &  - & b3 & 4  & \textcolor{red}{b5} &  5  & - &  b7 \\
+	\end{tabular}
+	\label{tab: }
+	%\end{adjustwidth}
+\end{table*}
+
+
+\begin{figure}[!h]
+	\centering
+	\hspace*{-1cm}
+	\scalebox{0.7}{\input{figures/6.blues/gammes/blues_penta_mineur.tex}}
+	\hspace*{-1cm}
+	\scalebox{0.7}{\input{figures/6.blues/gammes/blues_penta_majeur.tex}}
+	\hspace*{-1cm}
+	\scalebox{0.7}{\input{figures/6.blues/gammes/blues_mix_maj_min.tex}}
+	\caption{(a) Minor blues scale with blue note (b5). (b) Major blues pentatonic scale. (c) Blues scale  }
+	\label{fig:}
+\end{figure}
+
+
+\subsection{12-bar blues chord progression}
+
+\begin{figure}[!h]
+    \centering
+	\hspace*{0cm}
+	\scalebox{1.5}{\input{figures/6.blues/blues_progression1.tex}}
+	\scalebox{1.5}{\input{figures/6.blues/blues_progression2.tex}}
+	\scalebox{1.5}{\input{figures/6.blues/blues_progression3.tex}}
+	\caption{(a) Basic Blues chord progression. (b) minor blues chord progression. (c) Basic Jazz Blues chord progression}
+	\label{fig:}
+\end{figure}
+
+
+%\begin{figure*}[!h]
+%	\centering
+%	\begin{tabular}{| c | c | c | c |}
+%		\hline
+%		\phantom{x}I7\phantom{x} & \phantom{x}\textbf{IV7}\phantom{x} & \phantom{x}I7\phantom{x} & \phantom{x}I7\phantom{x}  \\
+%		\hline
+%		\phantom{x}IV7\phantom{x} & \phantom{x}IV7\phantom{x} & \phantom{x}I7\phantom{x} & \phantom{x}I7\phantom{x}  \\
+%		\hline
+%		\phantom{x}V7\phantom{x} & \phantom{x}IV7\phantom{x} & \phantom{x}I7 - \textbf{vi7} & \textbf{ii7} - V7\phantom{x}  \\
+%		\hline
+%	\end{tabular}
+%	\caption{Basic 12 bar major blues with a \textit{quick change} and \textit{turnaroun}d}
+%	\label{tab: }
+%\end{figure*}
 
 
 
