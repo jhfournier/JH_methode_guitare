@@ -10,12 +10,12 @@
 	\fill[black!50!white, line width=2] (-0.2,-0.4) rectangle (0,4.4);
 	
 	% Strings
-	\draw[color=black!50!white, line width=2.0]  (-0.1, 5*\h) -- (\L,5*\h); % E
-	\draw[color=black!50!white, line width=2.5]  (-0.1, 4*\h) -- (\L,4*\h); % B
-	\draw[color=black!50!white, line width=3.0]  (-0.1, 3*\h) -- (\L,3*\h); % G
-	\draw[color=black!50!white, line width=3.5]  (-0.1, 2*\h) -- (\L,2*\h); % D
-	\draw[color=black!50!white, line width=4.0]  (-0.1, 1*\h) -- (\L,1*\h); % A
-	\draw[color=black!50!white, line width=4.5]  (-0.1, 0*\h) -- (\L,0*\h); % E
+	\draw[color=black!50!white, line width=2.0]  (-0.5, 5*\h) -- (\L,5*\h); % E
+	\draw[color=black!50!white, line width=2.5]  (-0.5, 4*\h) -- (\L,4*\h); % B
+	\draw[color=black!50!white, line width=3.0]  (-0.5, 3*\h) -- (\L,3*\h); % G
+	\draw[color=black!50!white, line width=3.5]  (-0.5, 2*\h) -- (\L,2*\h); % D
+	\draw[color=black!50!white, line width=4.0]  (-0.5, 1*\h) -- (\L,1*\h); % A
+	\draw[color=black!50!white, line width=4.5]  (-0.5, 0*\h) -- (\L,0*\h); % E
 	
 	% Frets 0
 	\draw[color=black!50!white, thick]  (-0.1, 0) -- (-0.1,5*\h); 
@@ -55,42 +55,47 @@
 	%\fill[black!50!white] (18.5*\fret,2.5*\h) circle (\dot_size); % fret 19
 
 	
-	% 3nd inversion position
-	\node[dot=\circ_size, fill=yellow!50!red,draw] at (2.5*\fret,5*\h) {{\large R}};
-	\node[dot=\circ_size, fill=yellow!50!red,draw] at (1.5*\fret,4*\h) {{\large 5}};
-	\node[dot=\circ_size, fill=yellow!50!red,draw] at (2.5*\fret,3*\h) {{\large 3}};
-	\node[dot=\circ_size, fill=yellow!50!red,draw] at (2.5*\fret,2*\h) {{\large 7}};
+	%  position
+	\node[dot=\circ_size, fill=yellow!50!red,draw] at (2.5*\fret,4*\h) {{\large }};
+	\node[dot=\circ_size, fill=yellow!50!red,draw] at (-0.5*\fret,3*\h) {{\large R}};
+	\node[dot=\circ_size, fill=yellow!50!red,draw] at (2.5*\fret,2*\h) {{\large }};
+	\node[dot=\circ_size, fill=yellow!50!red,draw] at (1.5*\fret,1*\h) {{\large }};
 	
 	
-	% Root position
-	\node[dot=\circ_size, fill=white,draw] at (5.5*\fret,5*\h) {{\large 3}};
-	\node[dot=\circ_size, fill=white,draw] at (5.5*\fret,4*\h) {{\large 7}};
-	\node[dot=\circ_size, fill=white,draw] at (5.5*\fret,3*\h) {{\large 5}};
+	%  position
+	\node[dot=\circ_size, fill=white,draw] at (5.5*\fret,4*\h) {{\large }};
+	\node[dot=\circ_size, fill=white,draw] at (3.5*\fret,3*\h) {{\large }};
 	\node[dot=\circ_size, fill=white,draw] at (4.5*\fret,2*\h) {{\large R}};
+	\node[dot=\circ_size, fill=white,draw] at (4.5*\fret,1*\h) {{\large }};
 	
-	% 1st inversion position
-	\node[dot=\circ_size, fill=yellow,draw] at (8.5*\fret,5*\h) {{\large 5}};
+	%  position
 	\node[dot=\circ_size, fill=yellow,draw] at (7.5*\fret,4*\h) {{\large R}};
-	\node[dot=\circ_size, fill=yellow,draw] at (9.5*\fret,3*\h) {{\large 7}};
-	\node[dot=\circ_size, fill=yellow,draw] at (7.5*\fret,2*\h) {{\large 3}};
+	\node[dot=\circ_size, fill=yellow,draw] at (6.5*\fret,3*\h) {{\large }};
+	\node[dot=\circ_size, fill=yellow,draw] at (8.5*\fret,2*\h) {{\large }};
+	\node[dot=\circ_size, fill=yellow,draw] at (7.5*\fret,1*\h) {{\large }};
 	
-	% 2nd inversion position
-	\node[dot=\circ_size, fill=yellow!50!red!30!white,draw] at (12.5*\fret,5*\h) {{\large 7}};
-	\node[dot=\circ_size, fill=yellow!50!red!30!white,draw] at (10.5*\fret,4*\h) {{\large 3}};
-	\node[dot=\circ_size, fill=yellow!50!red!30!white,draw] at (11.5*\fret,3*\h) {{\large R}};
-	\node[dot=\circ_size, fill=yellow!50!red!30!white,draw] at (10.5*\fret,2*\h) {{\large 5}};
+	%  position
+	\node[dot=\circ_size, fill=yellow!50!red!30!white,draw] at (11.5*\fret,4*\h) {{\large }};
+	\node[dot=\circ_size, fill=yellow!50!red!30!white,draw] at (9.5*\fret,3*\h) {{\large }};
+	\node[dot=\circ_size, fill=yellow!50!red!30!white,draw] at (11.5*\fret,2*\h) {{\large }};
+	\node[dot=\circ_size, fill=yellow!50!red!30!white,draw] at (9.5*\fret,1*\h) {{\large R}};
 	
 	% 3nd inversion position
-	\node[dot=\circ_size, fill=yellow!50!red,draw] at (14.5*\fret,5*\h) {{\large R}};
-	\node[dot=\circ_size, fill=yellow!50!red,draw] at (13.5*\fret,4*\h) {{\large 5}};
-	\node[dot=\circ_size, fill=yellow!50!red,draw] at (14.5*\fret,3*\h) {{\large 3}};
-	\node[dot=\circ_size, fill=yellow!50!red,draw] at (14.5*\fret,2*\h) {{\large 7}};
+%	\node[dot=\circ_size, fill=yellow!50!red,draw] at (14.5*\fret,4*\h) {{\large R}};
+%	\node[dot=\circ_size, fill=yellow!50!red,draw] at (14.5*\fret,3*\h) {{\large 5}};
+%	\node[dot=\circ_size, fill=yellow!50!red,draw] at (15.5*\fret,2*\h) {{\large 3}};
+%	\node[dot=\circ_size, fill=yellow!50!red,draw] at (14.5*\fret,1*\h) {{\large 7}};
 	
 	% Anotation (positions)
-%	\draw[black,anchor=center, text width=3.5cm, align=center] (5,-1) node { {\Large \phantom{\textbf{E pos.}} }};
-%	\draw[black,anchor=center, text width=3.5cm, align=center] (9.5,-1) node { {\Large \phantom{ \textbf{D-C pos.} }}};
-%	\draw[black,anchor=center, text width=3.5cm, align=center] (14,-1) node { {\Large \phantom{\textbf{A pos.} }}};
-
+	\draw[black,anchor=center, text width=3.5cm, align=center] (5,-1) node { {\Large \phantom{\textbf{E pos.}} }};
+	\draw[black,anchor=center, text width=3.5cm, align=center] (9.5,-1) node { {\Large \phantom{ \textbf{D-C pos.} }}};
+	\draw[black,anchor=center, text width=3.5cm, align=center] (14,-1) node { {\Large \phantom{\textbf{A pos.} }}};
+	
+	% Rectangle
+%	\draw [draw=yellow!90!black, line width=1.5] (1.9*\fret,-0.5) rectangle (7.2*\fret,4.5);
+%	\draw [draw=yellow!50!red!30!white, line width=1.5] (5.8*\fret,+0.4) rectangle (10.2*\fret,4.5);
+%	\draw [draw=yellow!50!red!80!white, line width=1.5] (8.9*\fret,+0.2) rectangle (15.1*\fret,4.6);
+	
 	
 	% Annotation
 	\draw[black,anchor=west] (-3cm,2cm) node { {\Huge \phantom{$\Delta$7 }} };

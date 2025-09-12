@@ -13,17 +13,17 @@
 \contentsline {subsection}{\numberline {3.2}Diatonic chords}{12}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Extended chords}{12}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Chord inversions}{13}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Harmony}{15}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Chord progression and example}{15}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Chord substitution}{15}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Tritone substitution}{15}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Backdoor II-V}{15}{subsubsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.3}Secondary dominant}{15}{subsubsection.4.2.3}%
-\contentsline {subsubsection}{\numberline {4.2.4}Dominant to diminished 7}{16}{subsubsection.4.2.4}%
-\contentsline {section}{\numberline {5}Arpeggios}{18}{section.5}%
-\contentsline {section}{\numberline {6}Blues}{20}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Blues scales}{20}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}12-bar blues chord progression}{20}{subsection.6.2}%
-\contentsline {section}{\numberline {7}Modes}{22}{section.7}%
-\contentsline {section}{\numberline {8}Transposition}{23}{section.8}%
-\contentsline {section}{\numberline {9}Composition variation (Shred Master Scott)}{24}{section.9}%
+\contentsline {section}{\numberline {4}Harmony}{16}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Chord progression and example}{16}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Chord substitution}{16}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Tritone substitution}{16}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Backdoor II-V}{16}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Secondary dominant}{16}{subsubsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.4}Dominant to diminished 7}{17}{subsubsection.4.2.4}%
+\contentsline {section}{\numberline {5}Arpeggios}{19}{section.5}%
+\contentsline {section}{\numberline {6}Blues}{21}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Blues scales}{21}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}12-bar blues chord progression}{21}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Modes}{23}{section.7}%
+\contentsline {section}{\numberline {8}Transposition}{24}{section.8}%
+\contentsline {section}{\numberline {9}Composition variation (Shred Master Scott)}{25}{section.9}%
