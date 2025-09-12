@@ -14,11 +14,11 @@ dot/.default = 6pt % size of the circle diameter
 \begin{tikzpicture}[scale=1]
 	\def \h{0.8}
 	\def \fret{1.4} % 1.6
-	\def \L{ 20*\fret }	
+	\def \L{ 16*\fret }
 	\def \dot_size{5pt}
 	\def \circ_size{15pt}
 	
-	\fill[black, line width=2] (0.0,-0.4) rectangle (20*\fret,4.4);
+	\fill[black, line width=2] (0.0,-0.4) rectangle (16*\fret,4.4);
 	\fill[black!50!white, line width=2] (-0.2,-0.4) rectangle (0,4.4);
 	
 	% Strings
@@ -49,11 +49,7 @@ dot/.default = 6pt % size of the circle diameter
 	\draw[color=black!50!white, thick]  (13*\fret, -0.4) -- (13*\fret,4.4); 
 	\draw[color=black!50!white, thick]  (14*\fret, -0.4) -- (14*\fret,4.4); 
 	\draw[color=black!50!white, thick]  (15*\fret, -0.4) -- (15*\fret,4.4); 
-	\draw[color=black!50!white, thick]  (16*\fret, -0.4) -- (16*\fret,4.4); 
-	\draw[color=black!50!white, thick]  (17*\fret, -0.4) -- (17*\fret,4.4); 
-	\draw[color=black!50!white, thick]  (18*\fret, -0.4) -- (18*\fret,4.4); 
-	\draw[color=black!50!white, thick]  (19*\fret, -0.4) -- (19*\fret,4.4); 
-	\draw[color=black!50!white, thick]  (20*\fret, -0.4) -- (20*\fret,4.4); 
+	\draw[color=black!50!white, thick]  (16*\fret, -0.4) -- (16*\fret,4.4);
 	
 	% Dots
 	\fill[black!50!white] (2.5*\fret,2.5*\h) circle (\dot_size); % fret 3
@@ -63,8 +59,6 @@ dot/.default = 6pt % size of the circle diameter
 	\fill[black!50!white] (11.5*\fret,1.5*\h) circle (\dot_size); % fret 12
 	\fill[black!50!white] (11.5*\fret,3.5*\h) circle (\dot_size); % fret 12
 	\fill[black!50!white] (14.5*\fret,2.5*\h) circle (\dot_size); % fret 15
-	\fill[black!50!white] (16.5*\fret,2.5*\h) circle (\dot_size); % fret 17
-	\fill[black!50!white] (18.5*\fret,2.5*\h) circle (\dot_size); % fret 19
 	
 	% String names
 %	\draw[black] (-0.5,5*\h) node { {\Large E} };

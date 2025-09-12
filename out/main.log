@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.13)  7 SEP 2025 01:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.13)  11 SEP 2025 21:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -842,9 +842,6 @@ LaTeX Warning: Label `tab: ' multiply defined.
 LaTeX Warning: Label `tab: ' multiply defined.
 
 
-LaTeX Warning: Label `tab:tritone-subs ' multiply defined.
-
-
 LaTeX Warning: Label `fig' multiply defined.
 
 
@@ -971,7 +968,7 @@ Overfull \hbox (76.27307pt too wide) in paragraph at lines 5--43
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/1.intervalles/Harmonic_entropy.png, id=157, 12045.0pt x 5940.1925pt>
+<figures/1.intervalles/Harmonic_entropy.png, id=172, 12045.0pt x 5940.1925pt>
 File: figures/1.intervalles/Harmonic_entropy.png Graphic file (type png)
 <use figures/1.intervalles/Harmonic_entropy.png>
 Package pdftex.def Info: figures/1.intervalles/Harmonic_entropy.png  used on in
@@ -985,7 +982,7 @@ Overfull \hbox (18.55663pt too wide) in paragraph at lines 101--103
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/1.intervalles/battement/main.pdf, id=159, 377.44513pt x 213.17644pt>
+<figures/1.intervalles/battement/main.pdf, id=174, 377.44513pt x 213.17644pt>
 File: figures/1.intervalles/battement/main.pdf Graphic file (type pdf)
 <use figures/1.intervalles/battement/main.pdf>
 Package pdftex.def Info: figures/1.intervalles/battement/main.pdf  used on inpu
@@ -994,57 +991,36 @@ t line 111.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3] (./figures/2.gammes/table-gammes.tex
-Overfull \hbox (129.36357pt too wide) in paragraph at lines 5--154
+[3] [4 <./figures/1.intervalles/Harmonic_entropy.png>] [5 <./figures/1.interval
+les/battement/main.pdf>] (./figures/2.gammes/table-gammes.tex
+Overfull \hbox (129.36357pt too wide) in paragraph at lines 5--153
 [][]
  []
 
+) [6
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) [4 <./figures/1.intervalles/Harmonic_entropy.png>]
-(./figures/2.gammes/gamme_majeure/pos1.tex)
+] (./figures/2.gammes/gamme_majeure/pos1.tex)
 (./figures/2.gammes/gamme_majeure/pos2.tex)
 (./figures/2.gammes/gamme_majeure/pos3.tex)
 (./figures/2.gammes/gamme_majeure/pos4.tex)
-(./figures/2.gammes/gamme_majeure/pos5.tex)
-Overfull \hbox (9.29027pt too wide) in paragraph at lines 133--146
- []|  [] 
- []
+(./figures/2.gammes/gamme_majeure/pos5.tex) [7
 
-
-Overfull \hbox (9.29027pt too wide) in paragraph at lines 133--146
- |  [] 
- []
-
-
-Overfull \hbox (9.29027pt too wide) in paragraph at lines 133--146
- |  [] 
- []
-
-
-Overfull \hbox (9.29027pt too wide) in paragraph at lines 133--146
- |  [] 
- []
-
-
-Overfull \hbox (9.29027pt too wide) in paragraph at lines 133--146
- |  [] 
- []
-
+]
+(./figures/2.gammes/gamme_penta/pos1.tex)
+(./figures/2.gammes/gamme_penta/pos2.tex)
+(./figures/2.gammes/gamme_penta/pos3.tex)
+(./figures/2.gammes/gamme_penta/pos4.tex)
+(./figures/2.gammes/gamme_penta/pos5.tex)
+(./figures/2.gammes/gamme_diminue/pos1.tex)
+(./figures/2.gammes/gamme_diminue/pos2.tex)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[5 <./figures/1.intervalles/battement/main.pdf>]
-(./figures/2.gammes/gamme_penta_manche.tex)
-Overfull \hbox (17.99051pt too wide) in paragraph at lines 156--159
- []|  [] 
- []
+[8
 
+] [9] [10
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[6] [7] [8] (./figures/3.accords/table-accords.tex
+] (./figures/3.accords/table-accords.tex
 
 ./figures/3.accords/table-accords.tex:1: LaTeX Error: Can be used only in pream
 ble.
@@ -1064,7 +1040,9 @@ Overfull \hbox (33.4175pt too wide) in paragraph at lines 7--54
  [][] 
  []
 
-) [9] (./figures/3.accords/table-diatonic_chords.tex
+) [11
+
+] (./figures/3.accords/table-diatonic_chords.tex
 ./figures/3.accords/table-diatonic_chords.tex:9: Missing } inserted.
 <inserted text> 
                 }
@@ -1094,140 +1072,163 @@ Overfull \hbox (13.44847pt too wide) in paragraph at lines 5--31
  []
 
 )
-Overfull \hbox (10.94516pt too wide) in paragraph at lines 205--206
+Overfull \hbox (10.94516pt too wide) in paragraph at lines 233--234
 \OT1/cmr/m/n/10 https://music.stackexchange.com/questions/108060/extended-chord
 -types-for-all-
  []
 
-[10] (./figures/3.accords/chord-inversions/maj7.tex)
+[12
+
+] (./figures/3.accords/chord-inversions/maj7.tex)
 (./figures/3.accords/chord-inversions/Dom7.tex)
 (./figures/3.accords/chord-inversions/m7.tex)
 (./figures/3.accords/chord-inversions/m7b5.tex)
-Overfull \hbox (40.8273pt too wide) in paragraph at lines 214--222
+Overfull \hbox (40.8273pt too wide) in paragraph at lines 242--250
  []|  [] 
  []
 
 
-Overfull \hbox (40.8273pt too wide) in paragraph at lines 214--222
+Overfull \hbox (40.8273pt too wide) in paragraph at lines 242--250
  |  [] 
  []
 
 
-Overfull \hbox (40.8273pt too wide) in paragraph at lines 214--222
+Overfull \hbox (40.8273pt too wide) in paragraph at lines 242--250
  |  [] 
  []
 
 
-Overfull \hbox (40.8273pt too wide) in paragraph at lines 214--222
+Overfull \hbox (40.8273pt too wide) in paragraph at lines 242--250
  |  [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[11] (./figures/4.harmonie/Progression_accord.tex
+[13
+
+] [14] (./figures/4.harmonie/Progression_accord.tex
 Overfull \hbox (103.56494pt too wide) in paragraph at lines 6--33
 [][] 
  []
 
-) [12] [13]
-<figures/4.harmonie/Circle_5th.png, id=269, 738.76pt x 738.76pt>
+)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[15
+
+] [16]
+<figures/4.harmonie/Circle_5th.png, id=297, 738.76pt x 738.76pt>
 File: figures/4.harmonie/Circle_5th.png Graphic file (type png)
 <use figures/4.harmonie/Circle_5th.png>
 Package pdftex.def Info: figures/4.harmonie/Circle_5th.png  used on input line 
-341.
+370.
 (pdftex.def)             Requested size: 221.6297pt x 221.6297pt.
- [14 <./figures/4.harmonie/Circle_5th.png>]
+ [17 <./figures/4.harmonie/Circle_5th.png>]
 (./figures/5.arpeges/dom7/dom7_pos1.tex) (./figures/5.arpeges/m7/m7_pos1.tex)
-Overfull \hbox (122.03757pt too wide) in paragraph at lines 359--363
+Overfull \hbox (122.03757pt too wide) in paragraph at lines 388--392
 []|  [] | [] 
  []
 
 (./figures/5.arpeges/dom7/dom7_pos2.tex) (./figures/5.arpeges/m7/m7_pos2.tex)
-Overfull \hbox (122.03757pt too wide) in paragraph at lines 364--368
+Overfull \hbox (122.03757pt too wide) in paragraph at lines 393--397
 []|  [] | [] 
  []
 
 (./figures/5.arpeges/dom7/dom7_pos3.tex) (./figures/5.arpeges/m7/m7_pos3.tex)
-Overfull \hbox (122.03757pt too wide) in paragraph at lines 369--373
+Overfull \hbox (122.03757pt too wide) in paragraph at lines 398--402
 []|  [] | [] 
  []
 
 (./figures/5.arpeges/dom7/dom7_pos4.tex) (./figures/5.arpeges/m7/m7_pos4.tex)
-Overfull \hbox (122.03757pt too wide) in paragraph at lines 374--378
+Overfull \hbox (122.03757pt too wide) in paragraph at lines 403--407
 []|  [] | [] 
  []
 
 (./figures/5.arpeges/dom7/dom7_pos5.tex) (./figures/5.arpeges/m7/m7_pos5.tex)
-Overfull \hbox (122.03757pt too wide) in paragraph at lines 379--383
+Overfull \hbox (122.03757pt too wide) in paragraph at lines 408--412
 []|  [] | [] 
  []
 
 (./figures/5.arpeges/maj7/maj7_pos1.tex)
 (./figures/5.arpeges/m7b5/m7b5_pos1.tex)
-Overfull \hbox (122.03757pt too wide) in paragraph at lines 391--395
+Overfull \hbox (122.03757pt too wide) in paragraph at lines 420--424
 []|  [] | [] 
  []
 
 (./figures/5.arpeges/maj7/maj7_pos2.tex)
 (./figures/5.arpeges/m7b5/m7b5_pos2.tex)
-Overfull \hbox (122.03757pt too wide) in paragraph at lines 396--400
+Overfull \hbox (122.03757pt too wide) in paragraph at lines 425--429
 []|  [] | [] 
  []
 
 (./figures/5.arpeges/maj7/maj7_pos3.tex)
 (./figures/5.arpeges/m7b5/m7b5_pos3.tex)
-Overfull \hbox (122.03757pt too wide) in paragraph at lines 401--405
+Overfull \hbox (122.03757pt too wide) in paragraph at lines 430--434
 []|  [] | [] 
  []
 
 (./figures/5.arpeges/maj7/maj7_pos4.tex)
 (./figures/5.arpeges/m7b5/m7b5_pos4.tex)
-Overfull \hbox (122.03757pt too wide) in paragraph at lines 406--410
+Overfull \hbox (122.03757pt too wide) in paragraph at lines 435--439
 []|  [] | [] 
  []
 
 (./figures/5.arpeges/maj7/maj7_pos5.tex)
 (./figures/5.arpeges/m7b5/m7b5_pos5.tex)
-Overfull \hbox (122.03757pt too wide) in paragraph at lines 411--415
+Overfull \hbox (122.03757pt too wide) in paragraph at lines 440--444
 []|  [] | [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[15] (./figures/6.blues/gammes/blues_penta_mineur.tex)
+[18
+
+] [19] (./figures/6.blues/gammes/blues_penta_mineur.tex)
 (./figures/6.blues/gammes/blues_penta_majeur.tex)
 (./figures/6.blues/gammes/blues_mix_maj_min.tex)
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 (./figures/6.blues/blues_progression1.tex)
 (./figures/6.blues/blues_progression2.tex)
 (./figures/6.blues/blues_progression3.tex)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[16]
-Overfull \hbox (12.75089pt too wide) in paragraph at lines 490--491
+[20
+
+] [21]
+Overfull \hbox (12.75089pt too wide) in paragraph at lines 519--520
 []\OT1/cmr/m/n/10 Ionian (Joy), do-rian(Jazz), phry-gian(flamenco,doom), ly-dia
 n (floaty,mystery)
  []
 
-[17] [18] [19]
+[22
+
+] [23
+
+] [24
+
+]
 (/Users/jh/Dropbox/Musique_sync/Theorie/JH_Methode_guitare/out/main.bbl)
-[20] (/Users/jh/Dropbox/Musique_sync/Theorie/JH_Methode_guitare/out/main.aux)
+[25] (/Users/jh/Dropbox/Musique_sync/Theorie/JH_Methode_guitare/out/main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4718B914608F89800FD8105A796EB66D;3746.
+(rerunfilecheck)             Checksum: 025F9B099420FC601BFB50B48AEEFBCB;4410.
  ) 
 Here is how much of TeX's memory you used:
- 32797 strings out of 478994
- 761625 string characters out of 5858183
- 1497577 words of memory out of 5000000
- 49540 multiletter control sequences out of 15000+600000
+ 32810 strings out of 478994
+ 762184 string characters out of 5858183
+ 1498818 words of memory out of 5000000
+ 49531 multiletter control sequences out of 15000+600000
  418159 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,17n,103p,766b,2356s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1252,10 +1253,10 @@ mf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2021
 /texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2
 021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
 Output written on /Users/jh/Dropbox/Musique_sync/Theorie/JH_Methode_guitare/out
-/main.pdf (21 pages, 893655 bytes).
+/main.pdf (26 pages, 899275 bytes).
 PDF statistics:
- 388 PDF objects out of 1000 (max. 8388607)
- 333 compressed objects within 4 object streams
- 75 named destinations out of 1000 (max. 500000)
- 259 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 426 PDF objects out of 1000 (max. 8388607)
+ 366 compressed objects within 4 object streams
+ 84 named destinations out of 1000 (max. 500000)
+ 283 words of extra memory for PDF output out of 10000 (max. 10000000)
 
